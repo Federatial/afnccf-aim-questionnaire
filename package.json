@@ -1,0 +1,24 @@
+{
+  "name": "afnccf-aim-questionnaire",
+  "version": "1.0.0",
+  "description": "Anna Freud Centre's AIM Questionnaire tools for TiddlyWiki",
+  "main": "index.js",
+  "dependencies": {
+    "tiddlywiki": "github:Jermolene/TiddlyWiki5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tiddlywiki wiki --listen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Federatial/afnccf-aim-questionnaire.git"
+  },
+  "author": "Jeremy Ruston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Federatial/afnccf-aim-questionnaire/issues"
+  },
+  "homepage": "https://github.com/Federatial/afnccf-aim-questionnaire#readme"
+}
