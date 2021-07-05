@@ -1,0 +1,59 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Global
+caption: <<aim-lingo TabSuggestionsGlobal>>
+
+\define expanded-state()
+[<currentTiddler>addprefix[$:/state/expanded-answer/global/]]
+\end
+
+<<aim-lingo OverviewSuggestionsGlobal>>
+
+<!--
+Define two filters:
+* a reduction filter to number of questions tagged with a particular intervention that have a score greater than 2
+* a sorting filter to sort interventions by the number of questions scoring greater than 2
+* a filtering filter to select questions scoring greater than 2
+-->
+<$vars
+    global-ranking-reduction="[{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]else[0]compare:number:gt[2]then[1]else[0]add<accumulator>]"
+    global-ranking-sort="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>] +[reduce<global-ranking-reduction>]"
+    global-ranking-filter="[addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]compare:number:gt[2]]"
+>
+<ol class="tc-aim-results-interventions">
+<!-- Loop through the interventions, descendly sorted by the number of questions scoring greater than 2 -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[!sortsub:number<global-ranking-sort>]">
+<!-- Ignore any interventions that have zero questions scoring greater than 2 -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>] +[reduce<global-ranking-reduction>compare:number:ne[0]]" variable="ignore">
+<li>
+<!-- Display the question and the number of answers scoring greater than 2 -->
+<span class="tc-aim-results-intervention">
+<span class="tc-aim-results-score">
+<$text text={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>] +[reduce<global-ranking-reduction>] }}}/>
+</span>
+<$link to=<<currentTiddler>>><$text text=<<currentTiddler>>/></$link>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="match" text="hide" default="hide" tag="span">
+<$button set={{{ [subfilter<expanded-state>] }}} setTo="show">
+<<aim-lingo ButtonShowQuestions>>
+</$button>
+</$reveal>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="nomatch" text="hide" default="hide" tag="span">
+<$button set={{{ [subfilter<expanded-state>] }}} setTo="hide">
+<<aim-lingo ButtonHideQuestions>>
+</$button>
+</$reveal>
+</span>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="nomatch" text="hide" default="hide" tag="div">
+<ol class="tc-aim-results-intervention-questions">
+<!-- Loop through the questions tagged with this intervention that have answers scoring greater than 2 -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<global-ranking-filter>]" variable="question">
+<li>
+<!-- Display the question and its score -->
+<$link to=<<question>>><$text text=<<question>>/></$link> (rating <$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]] }}}/>)
+</li>
+</$list>
+</ol>
+</$reveal>
+</li>
+</$list>
+</$list>
+</ol>
+</$vars>

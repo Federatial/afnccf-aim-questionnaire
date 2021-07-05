@@ -1,0 +1,18 @@
+title: $:/plugins/federatial/aim-questionnaire/Results
+caption: <<aim-lingo TabResults>> <$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]else[true]match[true]]"><span class="tc-aim-result-flag">{{$:/core/images/download-button}}</span></$list>
+
+\define incomplete-results()
+<p><br>
+<$vars questions-answered={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}count[]] }}}>
+<<aim-lingo ResultsNotAvailable>>
+</$vars>
+</p>
+\end
+
+<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]else[true]match[true]]" emptyMessage=<<incomplete-results>>>
+
+<br><<aim-lingo ResultsOverview>>
+
+<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions $:/plugins/federatial/aim-questionnaire/Results/Scores $:/plugins/federatial/aim-questionnaire/Results/Download" default:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions">></$list>
+
+

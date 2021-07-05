@@ -1,0 +1,6 @@
+{
+	"title": "$:/plugins/federatial/aim-questionnaire",
+	"name": "aim-questionnaire",
+	"description": "AIM Questionnaire for AFNCCF",
+	"list": "readme config debug"
+}

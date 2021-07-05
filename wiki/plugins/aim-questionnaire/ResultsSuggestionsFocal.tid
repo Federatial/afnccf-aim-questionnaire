@@ -1,0 +1,54 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal
+caption: <<aim-lingo TabSuggestionsFocal>>
+
+\define expanded-state()
+[<currentTiddler>addprefix[$:/state/expanded-answer/focal/]]
+\end
+
+<<aim-lingo OverviewSuggestionsFocal>>
+
+<!-- Define a filter for to compute the average score of the questions tagged with the current intervention -->
+<$vars
+    averageScoreForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]average[]]"
+>
+<!-- Loop through all the interventions, descendingly sorted by their average score -->
+<ol class="tc-aim-results-interventions">
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[!sortsub:number<averageScoreForIntervention>]">
+<!-- Skip any interventions whose average score is zero -->
+<$list filter="[subfilter<averageScoreForIntervention>compare:number:ne[0]]" variable="ignore">
+<li>
+<!-- Display the intervention and average score -->
+<span class="tc-aim-results-intervention">
+<span class="tc-aim-results-score">
+<span class="tc-aim-results-score-small">
+<$text text={{{ [subfilter<averageScoreForIntervention>fixed[1]] }}}/>
+</span>
+</span>
+<$link to=<<currentTiddler>>><$text text=<<currentTiddler>>/></$link>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="match" text="hide" default="hide" tag="span">
+<$button set={{{ [subfilter<expanded-state>] }}} setTo="show">
+<<aim-lingo ButtonShowQuestions>>
+</$button>
+</$reveal>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="nomatch" text="hide" default="hide" tag="span">
+<$button set={{{ [subfilter<expanded-state>] }}} setTo="hide">
+<<aim-lingo ButtonHideQuestions>>
+</$button>
+</$reveal>
+</span>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="nomatch" text="hide" default="hide" tag="div">
+<ol class="tc-aim-results-intervention-questions">
+<!-- Loop through the questions tagged with this intervention -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<averageScoreForIntervention>compare:number:ne[0]]" variable="question">
+<li>
+<!-- Display the question and its score -->
+<$link to=<<question>>><$text text=<<question>>/></$link> (<$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]] }}}/>)
+</li>
+</$list>
+</ol>
+</$reveal>
+</li>
+</$list>
+</$list>
+</ol>
+</$vars>

@@ -5,6 +5,9 @@
         "tiddlywiki/vanilla",
         "tiddlywiki/snowwhite"
     ],
+	"languages": [
+		"es-ES"
+    ],
     "build": {
         "index": [
             "--rendertiddler",

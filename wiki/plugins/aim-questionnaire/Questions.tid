@@ -1,0 +1,110 @@
+title: $:/plugins/federatial/aim-questionnaire/Questions
+caption: <<aim-lingo TabQuestions>>
+
+\whitespace trim
+
+\define category-tag() AIMCategory
+\define question-tag() AIMQuestion
+\define key-question-reduction() [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>get[text]match[yes]then[1]else[0]add<accumulator>]
+\define max-key-questions() 6
+
+<$set name="state" value=<<qualify "$:/state/aim-navigation">>>
+	<$set name="state" value={{{ [<state>addsuffix[/]addsuffix{$:/config/federatial/aim-questionnaire/aim-question-tag}] }}}>
+		<$tiddler tiddler={{{ [<state>get[text]] ~[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]first[]]  }}}>
+			<$vars answerTitle={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>] }}} keyAnswerTitle={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>] }}} category-class={{{ [<currentTiddler>get[category]addprefix[tc-aim-category-]] }}} >
+				<div class={{{ tc-aim-questions tc-aim-category-faded [<category-class>] +[join[ ]] }}}>
+					<div class="tc-aim-status">
+						<div class="tc-aim-indicators">
+							<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}]">
+								<div class={{{ tc-aim-indicator [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>is[tiddler]then<currentTiddler>get[category]addprefix[tc-aim-category-]] +[join[ ]] }}}>
+								</div>
+							</$list>
+						</div>
+						<div class="tc-aim-popup">
+							<$button popup=<<qualify "$:/state/popup/aim-navigation-$index$">> class="tc-btn-invisible">{{$:/core/images/down-arrow}}<$text text=" "/><<aim-lingo ButtonShowAllQuestions>><$text text=" "/>{{$:/core/images/down-arrow}}
+							</$button>
+						</div>
+						<$reveal state=<<qualify "$:/state/popup/aim-navigation-$index$">> type="popup" position="belowleft" tag="div">
+							<div class="tc-drop-down-wrapper">
+								<div class="tc-drop-down">
+									<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}sort[letter]get[letter]]" variable="category">
+										<div class={{{ [[tc-dropdown-item-plain]] +[join[ ]] }}}>
+											''<$transclude tiddler={{{ [tag{$:/config/federatial/aim-questionnaire/aim-category-tag}field:letter<category>] }}} field="caption"/>''
+										</div>
+										<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<category>]" variable="question">
+											<$button class={{{ [[tc-btn-invisible]] [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<question>has[text]then<question>get[category]addprefix[tc-aim-category-]] [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<question>get[text]else[no]match[yes]then[tc-aim-question-key-problem]] +[join[ ]] }}}>
+												<$action-setfield $tiddler=<<state>> $field="text" $value=<<question>>/>
+												<$text text={{{ [<question>get[number]] }}}/> — <$text text={{{ [<question>get[caption]] }}}/>
+												<$vars answerTitle={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<question>] }}}>
+													<$list filter="[<answerTitle>get[text]else[no]match[yes]]">
+														<span class="tc-aim-question-key-problem-indicator">
+															<$text text=" "/>
+															{{$:/core/images/star-filled}}
+														</span>
+													</$list>
+												</$vars>
+											</$button>
+										</$list>
+									</$list>
+								</div>
+							</div>
+						</$reveal>
+					</div>
+					<div class="tc-aim-question">
+						<h3 class={{{ [<currentTiddler>get[category]addprefix[tc-aim-category-]] +[join[ ]] }}}><$text text={{!!number}}/></h3>
+						<h2><$transclude tiddler={{{ [<currentTiddler>get[category]addprefix[$:/plugins/federatial/aim-questionnaire/Categories/]] }}} field="caption"/></h2>
+						<h1><$text text={{!!caption}}/></h1>
+						<$transclude mode="block"/>
+						<div class={{{ tc-aim-answer [<keyAnswerTitle>get[text]match[yes]then[tc-aim-key-answer-selected]] +[join[ ]] }}}>
+							<$checkbox tiddler=<<keyAnswerTitle>> field="text" checked="yes" unchecked="no" default="no" disabled={{{ [<keyAnswerTitle>get[text]else[no]match[yes]then[no]]  [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}reduce<key-question-reduction>compare:number:gteq<max-key-questions>then[yes]] }}}>
+								<$text text=" "/>
+								<$vars key-question-number={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}reduce<key-question-reduction>] }}}>
+									<<aim-lingo LabelKeyProblem>>
+								</$vars>
+							</$checkbox>
+						</div>
+						<$list filter={{!!list}} variable="answer">
+							<$vars answerFieldName={{{ [<answer>addprefix[answer]] }}}>
+								<div class={{{ tc-aim-answer [<answerTitle>get[text]match<answer>then[tc-aim-answer-selected]] +[join[ ]] }}}>
+									<$radio tiddler=<<answerTitle>> field="text" value=<<answer>>>
+										<$text text=" "/>''<$text text=<<answer>>/>''<$text text=" = "/><$text text={{{ [<currentTiddler>get<answerFieldName>] }}}/>
+									</$radio>
+								</div>
+							</$vars>
+						</$list>
+					</div>
+					<div class="tc-aim-navigation-buttons">
+						<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]allbefore<currentTiddler>limit[1]]" variable="ignore">
+							<$button class="tc-aim-navigation-button tc-aim-navigation-button-previous">
+								<$action-setfield $tiddler=<<state>> $value={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]before<currentTiddler>] }}}/>
+								{{$:/core/images/left-arrow}}
+								<$text text=" "/>
+								<<aim-lingo ButtonPrevious>>
+							</$button>
+						</$list>
+						<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]allafter<currentTiddler>limit[1]]" variable="ignore">
+							<$button class="tc-aim-navigation-button tc-aim-navigation-button-next" disabled={{{ [<answerTitle>is[tiddler]then[no]else[yes]] }}}>
+								<$action-setfield $tiddler=<<state>> $value={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]after<currentTiddler>] }}}/>
+								<<aim-lingo ButtonNext>>
+								<$text text=" "/>
+								{{$:/core/images/right-arrow}}
+							</$button>
+						</$list>
+						<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]else[true]match[true]]">
+							<$button class="tc-aim-navigation-button tc-aim-navigation-button-results">
+								<$action-setfield $tiddler=<<tabsState>> $value="$:/plugins/federatial/aim-questionnaire/Results"/>
+								{{$:/core/images/save-button}}
+								<$text text=" results"/>
+							</$button>
+						</$list>
+					</div>
+					<div class="tc-aim-navigation-footer">
+						<$vars question-number={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]count[]] }}}>
+							<<aim-lingo QuestionFooter>>
+						</$vars>
+					</div>
+				</div>
+			</$vars>
+		</$tiddler>
+	</$set>
+</$set>

@@ -1,0 +1,15 @@
+title: $:/plugins/federatial/aim-questionnaire/debug
+
+For testing purposes, this button answers all questions with a random answer.
+
+<$button>
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}]">
+<$action-setfield $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>] }}} $value="4"/>
+</$list>
+<$list filter="1 3 7 12 32 42">
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:number<currentTiddler>]">
+<$action-setfield $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>] }}} $value="yes"/>
+</$list>
+</$list>
+Answer all questions
+</$button>

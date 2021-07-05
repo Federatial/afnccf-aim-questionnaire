@@ -1,0 +1,53 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit
+caption: <<aim-lingo TabSuggestionsLimit>>
+
+\define expanded-state()
+[<currentTiddler>addprefix[$:/state/expanded-answer/limit/]]
+\end
+
+<<aim-lingo OverviewSuggestionsLimit>>
+
+<!-- Define a filter to compute the number of key questions tagged with the current intervention -->
+<$vars
+    numberKeyQuestionsForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]match[yes]count[]]"
+    keyQuestionsForIntervention="[addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]field:text[yes]]"
+>
+<!-- Loop through all the interventions, descendingly sorted by their  score -->
+<ol class="tc-aim-results-interventions">
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[!sortsub:number<numberKeyQuestionsForIntervention>]">
+<!-- Skip any interventions whose average score is zero -->
+<$list filter="[subfilter<numberKeyQuestionsForIntervention>compare:number:ne[0]limit[1]]" variable="ignore">
+<li>
+<!-- Display the intervention and average score -->
+<span class="tc-aim-results-intervention">
+<span class="tc-aim-results-score">
+<$text text={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]field:text[yes]count[]] }}}/>
+</span>
+<$link to=<<currentTiddler>>><$text text=<<currentTiddler>>/></$link>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="match" text="hide" default="hide" tag="span">
+<$button set={{{ [subfilter<expanded-state>] }}} setTo="show">
+<<aim-lingo ButtonShowQuestions>>
+</$button>
+</$reveal>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="nomatch" text="hide" default="hide" tag="span">
+<$button set={{{ [subfilter<expanded-state>] }}} setTo="hide">
+<<aim-lingo ButtonHideQuestions>>
+</$button>
+</$reveal>
+</span>
+<$reveal stateTitle={{{ [subfilter<expanded-state>] }}} type="nomatch" text="hide" default="hide" tag="div">
+<ol class="tc-aim-results-intervention-questions">
+<!-- Loop through the questions tagged with this intervention -->
+<$list filter="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<keyQuestionsForIntervention>]" variable="question">
+<li>
+<!-- Display the question -->
+<$link to=<<question>>><$text text=<<question>>/></$link>
+</li>
+</$list>
+</ol>
+</$reveal>
+</li>
+</$list>
+</$list>
+</ol>
+</$vars>

@@ -1,0 +1,22 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Scores/DocTemplate
+
+`<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AIM Assessment Results</title>
+  <style>
+  body {
+    font-family: "Verdana", sans-serif;
+  }
+  </style>
+</head>
+<body>
+<h1>AIM Assessment Results</h1>
+<p style="font-style:italic;">`<$wikify name="date" text="<<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>>"><$text text={{{ [<date>format:date[hh:mm, DDth MMM YYYY]] }}} /></$wikify>`</p>
+<p style="font-weight:bold;">Client name:</p>
+<p style="font-weight:bold;">DOB:</p>
+<p style="font-weight:bold;">Name of person completing AIM:</p>
+`{{$:/plugins/federatial/aim-questionnaire/Results/Scores||$:/core/templates/html-tiddler}}`
+</body>
+</html>`

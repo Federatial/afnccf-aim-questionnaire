@@ -1,0 +1,50 @@
+[
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/A",
+        "tags": "AIMCategory",
+        "letter": "A",
+        "caption": "<<aim-lingo CategoryYoungPersonDailyLife>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/B",
+        "tags": "AIMCategory",
+        "letter": "B",
+        "caption": "<<aim-lingo CategorySocioEconomic>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/C",
+        "tags": "AIMCategory",
+        "letter": "C",
+        "caption": "<<aim-lingo CategoryFamily>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/D",
+        "tags": "AIMCategory",
+        "letter": "D",
+        "caption": "<<aim-lingo CategorySocial>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/E",
+        "tags": "AIMCategory",
+        "letter": "E",
+        "caption": "<<aim-lingo CategoryMentalState>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/F",
+        "tags": "AIMCategory",
+        "letter": "F",
+        "caption": "<<aim-lingo CategoryResponseToSituation>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/G",
+        "tags": "AIMCategory",
+        "letter": "G",
+        "caption": "<<aim-lingo CategoryMeasureOfComplexity>>"
+    },
+    {
+        "title": "$:/plugins/federatial/aim-questionnaire/Categories/H",
+        "tags": "AIMCategory",
+        "letter": "H",
+        "caption": "<<aim-lingo CategoryPowerAndControl>>"
+    }
+]

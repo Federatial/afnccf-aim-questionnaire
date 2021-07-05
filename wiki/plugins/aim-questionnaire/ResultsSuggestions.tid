@@ -1,0 +1,6 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions
+caption: <<aim-lingo TabSuggestedInterventions>>
+
+<<aim-lingo OverviewSuggestedInterventions>>
+
+<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Global $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit" default:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal">>

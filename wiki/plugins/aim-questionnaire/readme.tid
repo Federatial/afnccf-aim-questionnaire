@@ -1,0 +1,11 @@
+title: $:/plugins/federatial/aim-questionnaire/readme
+
+! Introduction
+
+! Usage
+
+Use the following macro to display the questionnaire and results:
+
+```
+<<aim-questionnaire>>
+```

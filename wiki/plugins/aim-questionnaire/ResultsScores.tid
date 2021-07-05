@@ -1,0 +1,96 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Scores
+caption: <<aim-lingo TabScores>>
+
+\define total-reduction()
+[{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]else[0]add<accumulator>]
+\end
+
+!! <<aim-lingo ResultsTotalScore>> <$text text={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}reduce<total-reduction>] }}}/>
+
+!! <<aim-lingo ResultsSubscaleScores>>
+
+<table>
+<tbody>
+<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}]" variable="category">
+<tr>
+<td>
+<$transclude tiddler=<<category>> field="caption"/>
+</td>
+<td>
+<$vars category-letter={{{ [<category>get[letter]] }}}>
+<$text text={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<category-letter>reduce<total-reduction>] }}}/>
+</$vars>
+</td>
+</tr>
+</$list>
+</tbody>
+</table>
+
+!! <<aim-lingo ResultsQuestionScores>>
+
+<table>
+<tbody>
+<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}]" variable="category">
+<$vars category-letter={{{ [<category>get[letter]] }}}>
+<tr>
+<td colspan="2">
+''<$transclude tiddler=<<category>> field="caption"/>''
+</td>
+<td>
+''<$text text={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<category-letter>reduce<total-reduction>] }}}/>''
+</td>
+</tr>
+<$list filter="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<category-letter>]" variable="question">
+<tr>
+<td>
+<$text text={{{ [<question>get[number]] }}}/>
+</td>
+<td>
+<$text text={{{ [<question>get[caption]] }}}/>
+</td>
+<td>
+<$text text={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<question>get[text]else[0]] }}}/><$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]match[yes]then[*]] }}}/>
+</td>
+</tr>
+</$list>
+</$vars>
+</$list>
+</tbody>
+</table>
+
+!! <<aim-lingo ResultsKeyProblems>>
+
+<table>
+<tbody>
+<$vars key-question-filter="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]else[no]match[yes]then[1]else[0]] +[sum[]compare:number:gt[0]] ">
+<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}get[letter]filter<key-question-filter>]" variable="category-letter" emptyMessage="""
+<tr>
+<td>
+<<aim-lingo ResultsKeyProblemsNone>>
+</td>
+</tr>
+""">
+<tr>
+<td colspan="3">
+''<$transclude tiddler={{{ [all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}field:letter<category-letter>] }}} field="caption"/>''
+</td>
+</tr>
+<$list filter="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}category<category-letter>]" variable="question">
+<$list filter="[<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]match[yes]]" variable="ignore">
+<tr>
+<td>
+<$text text={{{ [<question>get[number]] }}}/>
+</td>
+<td>
+<$text text={{{ [<question>get[caption]] }}}/>
+</td>
+<td>
+<$text text={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<question>get[text]else[0]] }}}/>
+</td>
+</tr>
+</$list>
+</$list>
+</$list>
+</$vars>
+</tbody>
+</table>

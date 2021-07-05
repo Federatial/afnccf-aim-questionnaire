@@ -1,0 +1,5 @@
+title: $:/plugins/federatial/aim-questionnaire/config
+
+Tag used to identify AIM Questions: <$edit-text tiddler="$:/config/federatial/aim-questionnaire/aim-question-tag" tag="input"/>
+
+Tag used to identify AIM Categories: <$edit-text tiddler="$:/config/federatial/aim-questionnaire/aim-category-tag" tag="input"/>

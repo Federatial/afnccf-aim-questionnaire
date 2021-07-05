@@ -1,0 +1,12 @@
+title: $:/plugins/federatial/aim-questionnaire/Macros
+tags: $:/tags/Macro
+
+\define aim-lingo(string)
+<$transclude tiddler={{{ [{$:/language}get[name]] ~[[en-GB]] +[addprefix[$:/plugins/federatial/aim-questionnaire/Language/]] }}} index=<<__string__>>><$transclude tiddler="$:/plugins/federatial/aim-questionnaire/Language/en-GB" index=<<__string__>>/></$transclude>
+\end
+
+\define aim-questionnaire()
+<div class="tc-aim-panel">
+<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Questions $:/plugins/federatial/aim-questionnaire/Results" default:"$:/plugins/federatial/aim-questionnaire/Questions">>
+</div>
+\end
