@@ -9,3 +9,19 @@ Use the following macro to display the questionnaire and results:
 ```
 <<aim-questionnaire>>
 ```
+
+! Translating the AIM Questionnaire
+
+To translate the questionnaire into a different language:
+
+# Install the TiddlyWiki language plugin for the desired language, and note the language code (eg, Castellano Spanish is `es-ES`)
+# Clone the tiddler $:/plugins/federatial/aim-questionnaire/Language/en-GB
+# Replace the `en-GB` in the title with the language code (eg `es-ES`)
+# Edit the definitions in the tiddler to match the language
+#* Take care to keep the macro calls intact (eg `<<key-question-number>>`)
+# Choose the tag used to identify question tiddlers and enter it in the "config" tab of this plugin
+# Translate the English questions and answers into the target language
+#* Translate the titles of the tiddlers to the target language
+#* Add tags corresponding to the interventions suggested by each question
+# Use the "language" button in the sidebar "Tools" tab to switch to the target language to test the translation
+
