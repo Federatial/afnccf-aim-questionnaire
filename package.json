@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tiddlywiki wiki --listen"
+    "start": "npx tiddlywiki wiki --listen",
+    "build": "npx tiddlywiki wiki --build index"
   },
   "repository": {
     "type": "git",
