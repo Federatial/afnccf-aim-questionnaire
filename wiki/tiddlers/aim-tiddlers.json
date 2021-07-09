@@ -1,6 +1,7 @@
 [
     {
         "title": "01 Young person daily life - Social activities",
+        "modified": "20210709101455353",
         "tags": "[[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "1",
         "text": "Young person is involved in non-mandatory organized school or community activities, such as sports, clubs, church groups, etc.",
@@ -16,6 +17,7 @@
     },
     {
         "title": "02 Young person daily life - Attendance at Education, Employment or Training",
+        "modified": "20210709101455353",
         "tags": "[[Educational-Vocational Training]] FamilyWork MultiFamilyWork [[Working with the Professional Network]] AIMQuestion",
         "number": "2",
         "text": "Attendance at School, Emplyoment or Training courses.  This is a measure of the extent of meaningful activity in the young person's life  Behaviour and attainment are coded separately. Rate the attendance by the young person in the most recent academic, training or work environment, during the most recent 3-month period for which information is available.",
@@ -31,6 +33,7 @@
     },
     {
         "title": "03 Young person daily life - Attainment in Education, Employment or Training",
+        "modified": "20210709101455353",
         "tags": "[[Educational-Vocational Training]] FamilyWork [[Working with the Professional Network]] AIMQuestion",
         "number": "3",
         "text": "Functioning in school, employment or training; includes academic performance and behaviour.  Since intellectual ability is recorded elsewhere, do not adjust this rating for perceived ability. Rate how the young person is functioning in the most recent academic or work environment, during the most recent 3-month period for which information is available.",
@@ -46,6 +49,7 @@
     },
     {
         "title": "04 Young person daily life - Other talents and abilities",
+        "modified": "20210709101455353",
         "tags": "[[Educational-Vocational Training]] FamilyWork [[Social-Ecological Work]] AIMQuestion",
         "number": "4",
         "text": "Skills/talents in activities such as athletics, art, music, mechanical, computers",
@@ -61,6 +65,7 @@
     },
     {
         "title": "05 Young person daily life - Physical health condition",
+        "modified": "20210709101455353",
         "tags": "[[Crisis Contingency Planning]] FamilyWork Pharmacological [[Physical Health matters]] [[Social-Ecological Work]] SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
         "number": "5",
         "text": "Includes major illnesses or injuries and chronic conditions such as diabetes, arthritis, side effects of medication, physical effects of  alcohol/substance abuse. Excludes transient conditions e.g. influenza, sprained wrist.",
@@ -76,6 +81,7 @@
     },
     {
         "title": "06 Young person daily life - Self care",
+        "modified": "20210709101455353",
         "tags": "[[Crisis Contingency Planning]] FamilyWork LivingSkills SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
         "number": "6",
         "text": "The extent to which the young person performs tasks such as hygiene, dressing, eating, and attention to personal health needs in age-appropriate manner; if the young person has not been given the opportunity to learn a particular skill (e.g. tie shoes because he has no shoes with ties), do not penalize, and rate on overall functioning.",
@@ -91,6 +97,7 @@
     },
     {
         "title": "07 Young person daily life - Physical impairment or disability",
+        "modified": "20210709101455353",
         "tags": "FamilyWork LivingSkills [[Physical Health matters]] [[Social-Ecological Work]] SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
         "number": "7",
         "text": "Rating of general impairment or disability from any cause that limits or prevents movement, or impairs sight or hearing, or otherwise interferes with personal functioning. Includes impairment resulting from congenital conditions, side effects of medication, physical disabilities resulting from accidents, etc.  DO NOT SELECT THIS AS A KEY PROBLEM if the disability is not amenable to change.",
@@ -105,6 +112,7 @@
     },
     {
         "title": "08 Young person daily life - Social development",
+        "modified": "20210709101455353",
         "tags": "[[Crisis Contingency Planning]] [[Educational-Vocational Training]] FamilyWork [[Group Work]] LivingSkills [[Working with the Professional Network]] AIMQuestion",
         "number": "8",
         "text": "Rate social development and maturity, in comparison with peers of the same culture and age. This item would cover (although is not limited to) the kinds of problems with social interaction that are commonly observed in pervasive developmental disorders such as the autistic spectrum.  DO NOT SELECT THIS AS A KEY PROBLEM IF A DEVELOPMENTAL DEFICIT IS NOT AMENABLE TO CHANGE.",
@@ -120,6 +128,7 @@
     },
     {
         "title": "09 Young person daily life - Social skills and interaction",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Group Work]] LivingSkills [[Social-Ecological Work]] AIMQuestion",
         "number": "9",
         "text": "Young person is engaging, likeable, interested in interacting with people.  Social skills and interaction may be reduced for many reasons.  For (lilfe-long) developmental problems in managing reciprocal relationships (such as autistic spectrum difficulties) see also item 08 Young person daily life - Social development.",
@@ -135,6 +144,7 @@
     },
     {
         "title": "10 Socio-Economic - Provision of Stable Housing",
+        "modified": "20210709101455353",
         "tags": "SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
         "number": "10",
         "text": "Child or young person's ability to access stable, appropriate housing.  For older adolescents the assumption that the home is a //family// home may not be appropriate.",
@@ -150,6 +160,7 @@
     },
     {
         "title": "11 Socio-Economic - Income and Provision of Material Resources",
+        "modified": "20210709101455353",
         "tags": "SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
         "number": "11",
         "text": "Family's ability to provide concrete resources for the young person; e.g. financial stability, appropriate housing, clothing, etc.  In the case of older adolescents living independently, this may refer to their capacity to access the same independently, via work or appropriate benefits.",
@@ -165,6 +176,7 @@
     },
     {
         "title": "12 Family - Relationships",
+        "modified": "20210709101455353",
         "tags": "[[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
         "number": "12",
         "text": "The quality of interaction and affection __between members of the immediate family__ (parents and siblings and others living in the home). If variable, rate the best available relationship.",
@@ -180,6 +192,7 @@
     },
     {
         "title": "13 Family - Conflict with young person",
+        "modified": "20210709101455353",
         "tags": "[[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
         "number": "13",
         "text": "The ways anger, conflict, and negative feelings are expressed and managed in the relationship; rate the relationship between the young person and the immediate family member in which there is the most problematic conflict.",
@@ -195,6 +208,7 @@
     },
     {
         "title": "14 Family - Parental discipline",
+        "modified": "20210709101455353",
         "tags": "[[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
         "number": "14",
         "text": "Parent or caregiver's typical patterns of discipline, limits, and rule-setting for the young person; too harsh, inconsistent, or inadequate discipline may be a problem.  If young person spends regular time in two households (e.g., divorced parents), and there are inconsistencies between discipline in the two, rate the effect of the combination of the two. If any indication of abuse, ensure that this is recorded in carefully in the history, and that Child Protection issues have been considered.",
@@ -210,6 +224,7 @@
     },
     {
         "title": "15 Social - Supportive adult relationships outside the family",
+        "modified": "20210709101455353",
         "tags": "[[Child Protection Referral]] FamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "15",
         "text": "Describes relationships with adults outside the family, such as teachers, coaches, neighbours, parents of friends, aunt or uncle, pastor, etc.",
@@ -225,6 +240,7 @@
     },
     {
         "title": "16 Social - Peer friendships",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Group Work]] LivingSkills MentalizationBasedWork [[Social-Ecological Work]] AIMQuestion",
         "number": "16",
         "text": "The extent to which the young person seeks out, relates to, and becomes attached to peers",
@@ -240,6 +256,7 @@
     },
     {
         "title": "17 Social - Prosocial or antisocial peergroup",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "17",
         "text": "The extent to which the young person’s friendship group is identified as pro-social or antisocial.",
@@ -255,6 +272,7 @@
     },
     {
         "title": "18 Mental State (1) - Cognitive ability",
+        "modified": "20210709101455353",
         "tags": "[[Educational-Vocational Training]] FamilyWork LivingSkills [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "18",
         "text": "Young person is bright, quick to learn, able to comprehend.",
@@ -270,6 +288,7 @@
     },
     {
         "title": "19 Mental State (1) - Anxiety",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] FamilyWork MentalizationBasedWork Pharmacological AIMQuestion",
         "number": "19",
         "text": "Includes irrational fears and phobias, general anxiety, worries, and panic-like symptoms, repeatedly asking questions and seeking reassurance, or restless, agitated behaviour if clearly associated with anxiety.  These will often be provoked by new situations or people in milder forms, or more pervasive fears and inhibitions at higher levels of severity.",
@@ -285,6 +304,7 @@
     },
     {
         "title": "20 Mental State (1) - Obsessional Ideas and Compulsive Behaviour",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] FamilyWork Pharmacological [[Social-Ecological Work]] AIMQuestion",
         "number": "20",
         "text": "Obsessional ideas are recurrent, persistent thoughts, impulses, or images that enter the mind despite the person's efforts to exclude them, often recognized by the person as unrealistic. Compulsive behaviours are repetitive and purposeful behaviours associated with a subjective sense that they must be carried out, e.g. checking, washing.",
@@ -299,6 +319,7 @@
     },
     {
         "title": "21 Mental State (1) - Post-traumatic intrusive experience",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] FamilyWork Pharmacological AIMQuestion",
         "number": "21",
         "text": "Recurrent trauma-related thoughts, images, feelings, or behaviours that have a highly charged, frightening, or overwhelming quality, are associated with emotional arousal, and which enter the person's mind in a manner that is beyond voluntary control. Includes intrusive memories, nightmares, flashbacks, reenactments. Excludes depressive ideation, obsessional ideas, or ideation associated with specific phobias.",
@@ -313,6 +334,7 @@
     },
     {
         "title": "22 Mental State (1) - Attention and concentration",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] FamilyWork Pharmacological [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "22",
         "text": "The extent to which the young person can focus on a task for appropriate periods of time without distraction or interruption of concentrated effort, without one-to-one supervision or other individual attention.  Rate typical behaviour, not lapses in attention due to fatigue or situation-specific factors.",
@@ -328,6 +350,7 @@
     },
     {
         "title": "23 Mental State (1) - Irritability",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological AIMQuestion",
         "number": "23",
         "text": "General level of response to frustration, disappointment, criticisms, or provocation. Includes irritability associated with manic states.",
@@ -343,6 +366,7 @@
     },
     {
         "title": "24 Mental State (1) - Sleep disturbance",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] Pharmacological [[Physical Health matters]] AIMQuestion",
         "number": "24",
         "text": "Difficulties with sleep and arousal, including insomnia (difficulty initiating sleep), excessive daytime sleepiness, nightmares, night terrors, sleep apnoea, sleepwalking, and narcolepsy.  Rated on the basis of how much distress and functional disturbance is associated with the problem, regardless of whether sleep is the primary concern.",
@@ -357,6 +381,7 @@
     },
     {
         "title": "25 Mental State (1) - Depression",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] FamilyWork [[Group Work]] MentalizationBasedWork Pharmacological AIMQuestion",
         "number": "25",
         "text": "Depression may be manifest in sadness, tearfulness, irritability, lethargy, boredom, etc.; one of the principal factors being an inability to take pleasure in normally pleasurable things.  Lack of activity or withdrawal associated with negative symptoms of psychosis are not rated unless there is clear evidence of dysphoric mood.",
@@ -371,6 +396,7 @@
     },
     {
         "title": "26 Mental State (1) - Self-injurious Behaviour",
+        "modified": "20210709101455353",
         "tags": "[[Crisis Contingency Planning]] EmergencyProcedures FamilyWork MentalizationBasedWork [[Motivational Work]] AIMQuestion",
         "number": "26",
         "text": "Includes purposeful and self-injurious behaviour; excludes suicidal behaviour, or unclearly motivated behaviours which can or do result in injury.  Ambiguous behaviours (e.g. punching a wall) may be considered self-injurious if repeated after causing pain or injury.  Self-tattooing/piercing are considered self-harm, but professional tattooing or piercing are not.",
@@ -385,6 +411,7 @@
     },
     {
         "title": "27 Mental State (1) - Eating problems",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Motivational Work]] MultiFamilyWork [[Physical Health matters]] AIMQuestion",
         "number": "27",
         "text": "Includes all forms of eating disorders, whether restricting calories, binge eating with or without purging, pica etc.  Increase or decrease in caloric intake as a result of depression or other problem is rated under Self Care (06). Includes not eating for reasons associated with delusional states e.g. belief that food is poisoned.",
@@ -399,6 +426,7 @@
     },
     {
         "title": "28 Mental State (2) - Substance misuse",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Motivational Work]] MultiFamilyWork [[Physical Health matters]] [[Social-Ecological Work]] [[Substance use disorder - treatment]] AIMQuestion",
         "number": "28",
         "text": "Use of alcohol or illicit drugs (not cigarettes) without parental approval; culturally sanctioned use such as sips of parents' wine are not rated; in a restricted environment such as in young person unit or correctional facility, severity should be based on observations of attitude and interest expressed and apparent intentions regarding abstinence/treatment.",
@@ -413,6 +441,7 @@
     },
     {
         "title": "29 Mental State (2) - Suicidality",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Use the Mental Health Act]] [[Working with the Professional Network]] AIMQuestion",
         "number": "29",
         "text": "Suicidality is rated on the basis of both behaviour and ideation.  There must be clear evidence of intention to cause self-harm to rate behaviour as a suicide attempt; accidental self-injury is not rated.  Also, do not include injury or illness as a consequence of other symptomatic behaviour such as substance abuse or eating disorder, unless specific suicidal intent is expressed.  Use the Risk Assessment and Care Plan if this scores >1",
@@ -427,6 +456,7 @@
     },
     {
         "title": "30 Mental State (2) - Defiance",
+        "modified": "20210709101455353",
         "tags": "[[Crisis Contingency Planning]] FamilyWork MentalizationBasedWork MultiFamilyWork [[Working with the Professional Network]] AIMQuestion",
         "number": "30",
         "text": "A style of opposition, noncompliance, and/or refusal to follow directives from authority figures (parents, teachers, social workers, police, etc); some degree of defiance is normally expected, and behaviour should be rated as problematic only if it deviates from age and cultural norms.",
@@ -441,6 +471,7 @@
     },
     {
         "title": "31 Mental State (2) - Destruction of Property",
+        "modified": "20210709101455353",
         "tags": "[[Crisis Contingency Planning]] FamilyWork MultiFamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "31",
         "text": "Refers to deliberate destruction of the young person's own or other people's property, whether in rage episodes or not, such as graffiti, breaking windows, throwing things, etc.",
@@ -455,6 +486,7 @@
     },
     {
         "title": "32 Mental State (2) - Physical harm to others",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork Pharmacological [[Working with the Professional Network]] AIMQuestion",
         "number": "32",
         "text": "Aggressive and/or sadistic behaviour that could or does result in harm to other people or animals; socially or culturally sanctioned forms of aggression (e.g. hunting, killing insects) are not considered, unless they are conducted in an unusually sadistic manner (e.g. taking pleasure in pulling the wings off butterflies).  Use the Risk Assessment and Care Plan if this scores >1.",
@@ -469,6 +501,7 @@
     },
     {
         "title": "33 Mental State (2) - Problematic sexual behaviour",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
         "number": "33",
         "text": "Rate preoccupations, anxieties and behaviours that cause distress, conflict, or risk to the young person or others.  These may include acting out, such as promiscuity, abuse, or exhibitionism, or inhibitions, such as obsessive worrying about sexual matters or anxieties that inhibit social interactions.  Gender identity issues are not rated here unless accompanied by problematic sexual anxieties or behaviours.  Use the Risk Assessment and Care Plan if this scores >1",
@@ -483,6 +516,7 @@
     },
     {
         "title": "34 Mental State (2) - Psychotic experiences",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological AIMQuestion",
         "number": "34",
         "text": "Presence of psychotic symptoms, such as Delusions (firmly held false beliefs held without objective evidence, often impossible or highly improbable.  Delusions are not affected by rational argument or evidence to the contrary, and are not a conventional belief in the context of the person's social or cultural background) or Hallucinations (any experience of objectively unrealistic perceptions, such as hearing, seeing, hallucinations of touch or smelling things that others do not, when NOT under the influence of intoxicating substances. Rate descriptively only, not based on presumed cause. Rate flashbacks only if they are experienced as real, rather than as intense memory.)",
@@ -497,6 +531,7 @@
     },
     {
         "title": "35 Mental State (2) - Elated mood",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological [[Physical Health matters]] [[Working with the Professional Network]] AIMQuestion",
         "number": "35",
         "text": "Mood which is unusually 'high', 'giddy', manic, unrealistically happy, out of proportion to real events. Irritability associated with manic states is rated separately.",
@@ -511,6 +546,7 @@
     },
     {
         "title": "36 Mental State (2) - Mentalizing Capacity",
+        "modified": "20210709101455353",
         "tags": "MentalizationBasedWork AIMQuestion",
         "number": "36",
         "text": "The capacity the young person has to show sensitive recognition of other people's changing mental states and the effect these have upon their actions, or to reflect thoughtfully upon affective states of their own. When present, the young person demonstrates 'mind-mindedness', but when absent there may be callous, unemotional traits or an incapacity to tolerate frustration and affective states without resorting to defensive or displacement activities.",
@@ -525,6 +561,7 @@
     },
     {
         "title": "37 Response to situation - Insight",
+        "modified": "20210709101455353",
         "tags": "[[Cognitive Behavioural]] [[Crisis Contingency Planning]] [[Motivational Work]] Pharmacological [[Use the Mental Health Act]] AIMQuestion",
         "number": "37",
         "text": "The extent to which the young person demonstrates an age-appropriate awareness and understanding of his/her problems/difficulties.",
@@ -540,6 +577,7 @@
     },
     {
         "title": "38 Response to situation - Engagement with treatment and care",
+        "modified": "20210709101455353",
         "tags": "FamilyWork [[Motivational Work]] [[Use the Mental Health Act]] [[Working with the Professional Network]] AIMQuestion",
         "number": "38",
         "text": "The extent to which the young person is successfully engaged in the development and carrying out of his or her treatment and care.",
@@ -554,6 +592,7 @@
     },
     {
         "title": "39 Measure of Complexity - Chronicity",
+        "modified": "20210709101455353",
         "tags": "[[Working with the Professional Network]] AIMQuestion",
         "number": "39",
         "text": "The length of time the young person has experienced significant behavioural or emotional problems (not limited to the presenting problem)",
@@ -568,6 +607,7 @@
     },
     {
         "title": "40 Measure of Complexity - Pervasiveness",
+        "modified": "20210709101455353",
         "tags": "[[Working with the Professional Network]] AIMQuestion",
         "number": "40",
         "text": "The extent to which the major problems the young person presents are evident in multiple settings or domains of functioning e.g. family, education, psychological, physical, social-environmental.",
@@ -582,6 +622,7 @@
     },
     {
         "title": "41 Power and Control - Experiences of Discrimination",
+        "modified": "20210709101455353",
         "tags": "XXXX AIMQuestion",
         "number": "41",
         "text": "This is the experience and impact of discrimination upon a young person and their life. This includes discrimination on the basis of race, gender, ethnicity, culture, age, ability, sexuality, class and religion. This can be discrimination that has happened over a long time and in multiple areas of life as well as more specific incidents or experiences. This can also include discrimination from within one's own culture or community as well as intersecting differences which may be the target of discrimination.",
@@ -597,6 +638,7 @@
     },
     {
         "title": "42 Power and Control - Experiences of Exploitation",
+        "modified": "20210709101455353",
         "tags": "XXX AIMQuestion",
         "number": "42",
         "text": "Experiences of exploitation. People in positions of power or authority misusing power to coerce or control the young person. This includes grooming, sexual and criminal exploitation and any experiences where young people are pressured to do things that they do not wish to do which may be harmful. Note, it may be difficult for a young person to recognise experiences of exploitation themselves.",
@@ -612,6 +654,7 @@
     },
     {
         "title": "43 Power and Control - Online life",
+        "modified": "20210709101455353",
         "tags": "XXXXX AIMQuestion",
         "number": "43",
         "text": "How the young person uses the internet in their life. This captures positive and negative ways that being online can impact on a young person. Positive uses may include learning, social connections, relaxation and enjoyment whilst negative uses may include (for example) internet addiction, impact on daily life functioning, experiences of bullying, porn, radicalisation (not exclusive).",
