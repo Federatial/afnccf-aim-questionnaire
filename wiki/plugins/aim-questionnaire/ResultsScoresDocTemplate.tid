@@ -1,5 +1,6 @@
 title: $:/plugins/federatial/aim-questionnaire/Results/Scores/DocTemplate
 
+\import [[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
 `<!doctype html>
 <html lang="en">
 <head>
