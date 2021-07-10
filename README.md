@@ -2,7 +2,7 @@
 
 # Introduction
 
-This is an interactive implementation in TiddlyWiki 5 of the AMBIT AIM (Adolescent Integrative Measure) Questionnaire developed by the Anna Freud National Centre for Children and Families in London, UK. The AFNCCF is a charity that provides training and support for organisations providing social care to young people and their families.
+This is an interactive implementation in TiddlyWiki 5 by [Federatial](https://federatial.com) of the AMBIT AIM (Adolescent Integrative Measure) Questionnaire developed by the Anna Freud National Centre for Children and Families in London, UK. The AFNCCF is a charity that provides training and support for organisations providing social care to young people and their families.
 
 * AFNCC is a world-leading mental health charity for children and families that has developed and delivered pioneering mental health care for over 60 years – see https://annafreud.org/
 * AMBIT is a mentalization-based approach for teams and services who work with clients presenting with multiple and complex problems – see https://manuals.annafreud.org/ambit/
