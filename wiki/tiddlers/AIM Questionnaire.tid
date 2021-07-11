@@ -1,7 +1,3 @@
 title: AIM Questionnaire
 
-<$link to="HelloThere" class="tc-btn-big-green">
-''What is this?''
-</$link>
-
 <<aim-questionnaire>>
