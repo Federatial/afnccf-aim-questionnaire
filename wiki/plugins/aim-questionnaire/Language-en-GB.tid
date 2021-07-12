@@ -1,10 +1,10 @@
 title: $:/plugins/federatial/aim-questionnaire/Language/en-GB
 type: application/x-tiddler-dictionary
 
-BodyDownloadTSV: Click the button to download a .TSV file of the scores which can be opened in Microsoft Excel or Google Sheets
+BodyDownloadCSV: Click the button to download a .CSV file of the scores which can be opened in Microsoft Excel or Google Sheets
 BodyDownloadWordDocument: Click the button to download a .DOC file of the scores which can be opened in Microsoft Word or Google Docs
-ButtonCopyTSVToClipboard: Copy data to clipboard
-ButtonDownloadTSV: Download .TSV file
+ButtonCopyCSVToClipboard: Copy data to clipboard
+ButtonDownloadCSV: Download .CSV file
 ButtonDownloadDocFile: Download .DOC file
 ButtonHideQuestions: hide questions
 ButtonNext: next
@@ -19,14 +19,14 @@ CategoryResponseToSituation: Response to Situation
 CategorySocial: Social
 CategorySocioEconomic: Socio-Economic
 CategoryYoungPersonDailyLife: Young Person Daily Life
-HeadingDownloadTSV: Download TSV file
+HeadingDownloadCSV: Download CSV file
 HeadingDownloadWordDocument: Download Word Document
 LabelKeyProblem: This is a key problem (<<key-question-number>> of <<max-key-questions>>)
 OverviewSuggestedInterventions: Suggested interventions based on the assessment
 OverviewSuggestionsFocal: Each suggested intervention is ranked in order of how ''severe'' the set of problems are (their averaged AIM scores) that indicate that particular intervention. This is good for ''focusing on the most severe problems''
 OverviewSuggestionsGlobal: Each suggested intervention is ranked according to how many different problems (that is AIM items scoring greater than 2) the young person has which that particular intervention is relevant for. This is good for ''covering the whole set of problems and causes''
 OverviewSuggestionsLimit: Limit suggested interventions only to those relevant for items identified as ''key problems''
-PreviewDownloadTSV: Preview:
+PreviewDownloadCSV: Preview:
 QuestionFooter: (<<question-number>> of <<max-questions>> questions completed)
 ResultsKeyProblems: Key Problems
 ResultsKeyProblemsNone: (None)

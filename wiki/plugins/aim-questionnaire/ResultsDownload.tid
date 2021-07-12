@@ -10,28 +10,32 @@ caption: <<aim-lingo TabDownload>>
 {{$:/core/images/download-button}} <<aim-lingo ButtonDownloadDocFile>>
 </$button>
 
-! <<aim-lingo HeadingDownloadTSV>>
+! <<aim-lingo HeadingDownloadCSV>>
 
-<<aim-lingo BodyDownloadTSV>>
+<<aim-lingo BodyDownloadCSV>>
 
 <$button class="tc-btn-big-green">
-{{$:/core/images/download-button}} <<aim-lingo ButtonDownloadTSV>>
-<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/TSVDownloadTemplate" filename="results.tsv"/>
+{{$:/core/images/download-button}} <<aim-lingo ButtonDownloadCSV>>
+<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate" filename="results.csv" separator=","/>
 </$button>
 
 <$button class="tc-btn-big-green">
-<$wikify name="TSV-data" text={{$:/plugins/federatial/aim-questionnaire/TSVDownloadTemplate}}>
-<$action-sendmessage $message="tm-copy-to-clipboard" $param=<<TSV-data>>/>
+<$vars separator={{{ [charcode[9]] }}}>
+<$wikify name="CSV-data" text={{$:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate}}>
+<$action-sendmessage $message="tm-copy-to-clipboard" $param=<<CSV-data>>/>
 </$wikify>
-{{$:/core/images/copy-clipboard}} <<aim-lingo ButtonCopyTSVToClipboard>>
+</$vars>
+{{$:/core/images/copy-clipboard}} <<aim-lingo ButtonCopyCSVToClipboard>>
 </$button>
 
-<<aim-lingo PreviewDownloadTSV>>
+<<aim-lingo PreviewDownloadCSV>>
 
 <div class="tc-aim-download-results">
-<$wikify name="TSV" text={{$:/plugins/federatial/aim-questionnaire/TSVDownloadTemplate}}>
-<$vars table={{{ [<TSV>split[,]join[</td><td>]addprefix[<table><tbody><tr><td>]addsuffix[</td></tr></tbody></table>]addsuffix<linebreak>] }}}>
+<$vars separator=",">
+<$wikify name="CSV" text={{$:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate}}>
+<$vars table={{{ [<CSV>split[,]join[</td><td>]addprefix[<table><tbody><tr><td>]addsuffix[</td></tr></tbody></table>]addsuffix<linebreak>] }}}>
 <<table>>
 </$vars>
 </$wikify>
+</$vars>
 </div>

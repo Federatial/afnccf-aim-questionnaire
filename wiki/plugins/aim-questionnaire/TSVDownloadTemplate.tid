@@ -1,15 +1,15 @@
-title: $:/plugins/federatial/aim-questionnaire/TSVDownloadTemplate
+title: $:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate
 
 \whitespace trim
 <$vars sortby="[get[number]]" linebreak="
-" tab="	">
-<$text text=<<tab>>/>
+">
+<$text text=<<separator>>/>
 <<now "YYYY-MM-DD">>
-<$text text=<<tab>>/>
+<$text text=<<separator>>/>
 <$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}sortsub:number<sortby>]" counter="counter">
 <$text text={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]] ~[[missing]] }}}/>
 <$list filter="[<counter-last>!match[yes]]">
-<$text text=<<tab>>/>
+<$text text=<<separator>>/>
 </$list>
 </$list>
 <$text text=<<linebreak>>/>
