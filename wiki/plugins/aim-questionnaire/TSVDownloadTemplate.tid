@@ -1,4 +1,4 @@
-title: $:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate
+title: $:/plugins/federatial/aim-questionnaire/TSVDownloadTemplate
 
 \whitespace trim
 <$vars sortby="[get[number]]" linebreak="
