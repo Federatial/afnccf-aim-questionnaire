@@ -3,7 +3,7 @@
     "name": "aim-questionnaire",
     "description": "AIM Questionnaire for AFNCCF",
     "list": "readme config debug",
-    "version": "5.1.24-prerelease",
+    "version": "5.2.0-prerelease",
     "plugin-type": "plugin",
     "dependents": "",
     "type": "application/json",
