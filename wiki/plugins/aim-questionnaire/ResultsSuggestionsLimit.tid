@@ -14,7 +14,7 @@ caption: <<aim-lingo TabSuggestionsLimit>>
 >
 <!-- Loop through all the interventions, descendingly sorted by their  score -->
 <ol class="tc-aim-results-interventions">
-<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[!sortsub:number<numberKeyQuestionsForIntervention>]">
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] -[[hide-subpage]] +[!sortsub:number<numberKeyQuestionsForIntervention>]">
 <!-- Skip any interventions whose average score is zero -->
 <$list filter="[subfilter<numberKeyQuestionsForIntervention>compare:number:ne[0]limit[1]]" variable="ignore">
 <li>

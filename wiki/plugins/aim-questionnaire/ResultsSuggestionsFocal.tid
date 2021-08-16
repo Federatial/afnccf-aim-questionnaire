@@ -13,7 +13,7 @@ caption: <<aim-lingo TabSuggestionsFocal>>
 >
 <!-- Loop through all the interventions, descendingly sorted by their average score -->
 <ol class="tc-aim-results-interventions">
-<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[!sortsub:number<averageScoreForIntervention>]">
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] -[[hide-subpage]] +[!sortsub:number<averageScoreForIntervention>]">
 <!-- Skip any interventions whose average score is zero -->
 <$list filter="[subfilter<averageScoreForIntervention>compare:number:ne[0]]" variable="ignore">
 <li>
