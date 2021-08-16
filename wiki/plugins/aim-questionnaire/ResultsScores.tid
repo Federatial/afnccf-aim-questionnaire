@@ -5,6 +5,7 @@ caption: <<aim-lingo TabScores>>
 [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]else[0]add<accumulator>]
 \end
 
+\define show-scores()
 !! <<aim-lingo ResultsTotalScore>> <$text text={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}reduce<total-reduction>] }}}/>
 
 !! <<aim-lingo ResultsSubscaleScores>>
@@ -94,3 +95,18 @@ caption: <<aim-lingo TabScores>>
 </$vars>
 </tbody>
 </table>
+\end
+
+\define incomplete-results()
+<p><br>
+<$vars questions-answered={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}count[]] }}}>
+<<aim-lingo ResultsNotAvailable>>
+</$vars>
+</p>
+\end
+
+<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]else[true]match[true]]" emptyMessage=<<incomplete-results>>>
+
+<<show-scores>>
+
+</$list>
