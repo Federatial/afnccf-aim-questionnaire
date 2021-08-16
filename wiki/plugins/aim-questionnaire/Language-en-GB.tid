@@ -3,6 +3,7 @@ type: application/x-tiddler-dictionary
 
 BodyDownloadCSV: Click the button to download a .CSV file of the scores which can be opened in Microsoft Excel or Google Sheets
 BodyDownloadWordDocument: Click the button to download a .DOC file of the scores which can be opened in Microsoft Word or Google Docs
+ButtonClearAllAnswers: clear
 ButtonCopyCSVToClipboard: Copy data to clipboard
 ButtonDownloadCSV: Download .CSV file
 ButtonDownloadDocFile: Download .DOC file
@@ -19,6 +20,9 @@ CategoryResponseToSituation: Response to Situation
 CategorySocial: Social
 CategorySocioEconomic: Socio-Economic
 CategoryYoungPersonDailyLife: Young Person Daily Life
+ClearAnswersNo: No, leave existing answers alone
+ClearAnswersPrompt: Are you sure you wish to clear all existing answers?
+ClearAnswersYes: Yes, clear all existing answers
 HeadingDownloadCSV: Download CSV file
 HeadingDownloadWordDocument: Download Word Document
 LabelKeyProblem: This is a key problem (<<key-question-number>> of <<max-key-questions>>)

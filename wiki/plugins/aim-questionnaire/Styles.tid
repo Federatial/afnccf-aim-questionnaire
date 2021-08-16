@@ -4,209 +4,218 @@ tags: $:/tags/Stylesheet
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
 
 .tc-aim-panel .tc-tab-set > .tc-tab-buttons button {
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 0.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0.5em;
 }
 
 .tc-aim-result-flag {
-    fill: red;
+	fill: red;
 }
 
 .tc-aim-panel > .tc-tab-set > .tc-tab-content {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .tc-aim-panel > .tc-tab-set > .tc-tab-content > .tc-reveal > p {
-    margin: 0;
+	margin: 0;
 }
 
 .tc-aim-panel .tc-aim-popup {
-    text-align: right;
+	text-align: right;
 }
 
 .tc-aim-panel .tc-aim-popup button {
-    color: <<colour foreground>>;
+	color: <<colour foreground>>;
 }
 
 .tc-aim-panel .tc-aim-popup button svg {
-    fill: <<colour foreground>>;
+	fill: <<colour foreground>>;
 }
 
 .tc-aim-panel .tc-aim-indicators {
-    display: flex;
-    width: 100%;
-    background: <<colour background>>;
-    border-left: 1px solid <<colour muted-foreground>>;
-    border-top: 1px solid <<colour muted-foreground>>;
-    border-bottom: 1px solid <<colour muted-foreground>>;
+	display: flex;
+	width: 100%;
+	background: <<colour background>>;
+	border-left: 1px solid <<colour muted-foreground>>;
+	border-top: 1px solid <<colour muted-foreground>>;
+	border-bottom: 1px solid <<colour muted-foreground>>;
 }
 
 .tc-aim-panel .tc-aim-indicators .tc-aim-indicator {
-    flex-grow: 1;
-    display: inline-block;
-    border-right: 1px solid <<colour muted-foreground>>;
-    min-width: 4px;
-    min-height: 1em;
+	flex-grow: 1;
+	display: inline-block;
+	border-right: 1px solid <<colour muted-foreground>>;
+	min-width: 4px;
+	min-height: 1em;
 }
 
 .tc-aim-panel .tc-aim-status .tc-drop-down button {
-    padding-top: 2px;
-    padding-bottom: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 .tc-aim-panel .tc-aim-status .tc-drop-down button.tc-aim-question-key-problem {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .tc-aim-panel .tc-aim-status .tc-drop-down button .tc-aim-question-key-problem-indicator {
-    float: right;
-    padding-left: 0.5em;
+	float: right;
+	padding-left: 0.5em;
 }
 
 .tc-aim-panel .tc-aim-status .tc-drop-down button .tc-aim-question-key-problem-indicator svg {
-    fill: red;
+	fill: red;
 }
 
 .tc-aim-panel .tc-aim-status .tc-dropdown-item-plain {
-    color: #969696;
+	color: #969696;
 }
 
 .tc-aim-panel .tc-aim-questions {
-    border-left: 1px solid <<colour tab-divider>>;
-    border-right: 1px solid <<colour tab-divider>>;
-    border-bottom: 1px solid <<colour tab-divider>>;
-    line-height: 1.4;
-    padding: 1em;
+	border-left: 1px solid <<colour tab-divider>>;
+	border-right: 1px solid <<colour tab-divider>>;
+	border-bottom: 1px solid <<colour tab-divider>>;
+	line-height: 1.4;
+	padding: 1em;
 }
 
 .tc-aim-navigation-buttons {
-    text-align: center;
+	text-align: center;
 }
 
-.tc-aim-navigation-button {
+button.tc-aim-navigation-button {
+	width: auto;
 	cursor: pointer;
 	border: none;
 	background: <<colour foreground>>;
 	padding: 5px;
-    margin: 0 0.5em;
-    color: <<colour background>>;
-    fill: <<colour background>>;
-    border-radius: 0.25em;
+	margin: 0 0.5em;
+	color: <<colour background>>;
+	fill: <<colour background>>;
+	border-radius: 0.25em;
 }
 
-.tc-aim-navigation-button-previous {
-    background: #6666e4;
+button.tc-aim-navigation-button-clear {
+	background: #e46666;
 }
 
-.tc-aim-navigation-button-next {
-    background: #2bad2b;
+button.tc-aim-navigation-button-previous {
+	background: #6666e4;
 }
 
-.tc-aim-navigation-button-next:disabled {
-    color: <<colour foreground>>;
-    background: <<colour muted-foreground>>;
+button.tc-aim-navigation-button-next {
+	background: #2bad2b;
 }
 
-.tc-aim-navigation-button-next:disabled svg {
-    fill: <<colour foreground>>;
+button.tc-aim-navigation-button-next:disabled {
+	color: <<colour foreground>>;
+	background: <<colour muted-foreground>>;
 }
 
-.tc-aim-navigation-button-results {
-    background: #ff4141;
+button.tc-aim-navigation-button-next:disabled svg {
+	fill: <<colour foreground>>;
 }
 
-.tc-aim-navigation-button:hover {
+button.tc-aim-navigation-button-results {
+	background: #ff4141;
+}
+
+button.tc-aim-navigation-button:hover {
   background-color: <<colour muted-foreground>>;
 }
 
 .tc-aim-navigation-footer {
-    text-align: center;
-    margin-top: 1em;
-    color: #9e9e9e;
+	text-align: center;
+	margin-top: 1em;
+	color: #9e9e9e;
+}
+
+.tc-aim-navigation-button-drop-down {
+	text-align: left;
 }
 
 .tc-aim-question h3 {
-    float: left;
-    font-size: 4em;
-    line-height: 1;
-    padding: 0.25em;
-    margin: 0 0.25em 0.25em 0;
-    border-radius: 0.125em;
-    <<box-shadow "2px 2px 6px 1px rgba(0, 0, 0, 0.5)">>
-    border: 1px solid rgba(0,0,0,0.3);
+	float: left;
+	font-size: 4em;
+	line-height: 1;
+	padding: 0.25em;
+	margin: 0 0.25em 0.25em 0;
+	border-radius: 0.125em;
+	<<box-shadow "2px 2px 6px 1px rgba(0, 0, 0, 0.5)">>
+	border: 1px solid rgba(0,0,0,0.3);
 }
 
 .tc-aim-question h2 {
-    font-size: 1.5em;
-    line-height: 1.1;
-    margin: 0;
+	font-size: 1.5em;
+	line-height: 1.1;
+	margin: 0;
 }
 
 .tc-aim-question h1 {
-    font-size: 2em;
-    line-height: 1.1;
-    font-weight: bold;
-    margin: 0;
+	font-size: 2em;
+	line-height: 1.1;
+	font-weight: bold;
+	margin: 0;
 }
 
 .tc-aim-question p {
-    clear: both;
-    font-size: 1.5em;
+	clear: both;
+	font-size: 1.5em;
 }
 
 .tc-aim-question .tc-aim-answer {
-    margin: 0.5em 0;
-    border-radius: 1em;
+	margin: 0.5em 0;
+	border-radius: 1em;
 }
 
 .tc-aim-question .tc-aim-answer:hover {
-    background: #ffffff;
+	background: #ffffff;
 }
 
 .tc-aim-question .tc-aim-answer label {
-    display: block;
-    padding: 0.25em;
+	display: block;
+	padding: 0.25em;
 }
 
 
 .tc-aim-question .tc-aim-answer-selected {
-    background-color: #ffff77;
+	background-color: #ffff77;
 }
 
 .tc-aim-question .tc-aim-key-answer-selected {
-    background: #ffc9c9;
+	background: #ffc9c9;
 }
 
 .tc-aim-question-done {
 }
 
 .tc-aim-results-interventions {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 .tc-aim-results-interventions .tc-aim-results-intervention {
-    font-size: 1.5em;
-    line-height: 1.5;
+	font-size: 1.5em;
+	line-height: 1.5;
 }
 
 .tc-aim-results-interventions .tc-aim-results-intervention .tc-aim-results-score {
-    display: inline-block;
-    text-align: center;
-    font-weight: bold;
-    background-color: #2eb547;
-    color: <<colour background>>;
-    padding: 0.25em;
-    border-radius: 3em;
-    margin: 0.25em;
-    width: 2em;
-    height: 2em;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #2eb547;
+	color: <<colour background>>;
+	padding: 0.25em;
+	border-radius: 3em;
+	margin: 0.25em;
+	width: 2em;
+	height: 2em;
 }
 
 .tc-aim-results-interventions .tc-aim-results-intervention .tc-aim-results-score .tc-aim-results-score-small {
-    font-size: 0.8em;
-    padding: 0;
-    vertical-align: middle;
+	font-size: 0.8em;
+	padding: 0;
+	vertical-align: middle;
 }
 
 .tc-aim-results-interventions .tc-aim-results-intervention button {
@@ -224,22 +233,22 @@ tags: $:/tags/Stylesheet
 }
 
 .tc-aim-results-interventions > li {
-    line-height: 1.5;
+	line-height: 1.5;
 }
 
 .tc-aim-results-intervention-questions {
-    list-style: none;
-    padding-left: 1em;
+	list-style: none;
+	padding-left: 1em;
 }
 
 .tc-aim-results-intervention-questions > li {
-    line-height: 1.5;
+	line-height: 1.5;
 }
 
 .tc-aim-download-results {
-    width: 100%;
-    overflow-x: scroll;
-    white-space: nowrap;
+	width: 100%;
+	overflow-x: scroll;
+	white-space: nowrap;
 }
 
 .tc-aim-category-A {background-color: #bfbbe0;}

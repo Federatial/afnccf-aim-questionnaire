@@ -8,6 +8,13 @@ caption: <<aim-lingo TabQuestions>>
 \define key-question-reduction() [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>get[text]match[yes]then[1]else[0]add<accumulator>]
 \define max-key-questions() 6
 
+\define clear-all-answers()
+<$list filter="[tag<question-tag>]">
+<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
+<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
+</$list>
+\end
+
 <$set name="state" value=<<qualify "$:/state/aim-navigation">>>
 	<$set name="state" value={{{ [<state>addsuffix[/]addsuffix{$:/config/federatial/aim-questionnaire/aim-question-tag}] }}}>
 		<$tiddler tiddler={{{ [<state>get[text]] ~[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]first[]]  }}}>
@@ -21,10 +28,10 @@ caption: <<aim-lingo TabQuestions>>
 							</$list>
 						</div>
 						<div class="tc-aim-popup">
-							<$button popup=<<qualify "$:/state/popup/aim-navigation-$index$">> class="tc-btn-invisible">{{$:/core/images/down-arrow}}<$text text=" "/><<aim-lingo ButtonShowAllQuestions>><$text text=" "/>{{$:/core/images/down-arrow}}
+							<$button popup=<<qualify "$:/state/popup/aim-navigation">> class="tc-btn-invisible">{{$:/core/images/down-arrow}}<$text text=" "/><<aim-lingo ButtonShowAllQuestions>><$text text=" "/>{{$:/core/images/down-arrow}}
 							</$button>
 						</div>
-						<$reveal state=<<qualify "$:/state/popup/aim-navigation-$index$">> type="popup" position="belowleft" tag="div">
+						<$reveal state=<<qualify "$:/state/popup/aim-navigation">> type="popup" position="belowleft" tag="div">
 							<div class="tc-drop-down-wrapper">
 								<div class="tc-drop-down">
 									<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}sort[letter]get[letter]]" variable="category">
@@ -74,6 +81,27 @@ caption: <<aim-lingo TabQuestions>>
 						</$list>
 					</div>
 					<div class="tc-aim-navigation-buttons">
+						<$button class="tc-aim-navigation-button tc-aim-navigation-button-clear" popup=<<qualify "$:/state/popup/aim-clear">>>
+								{{$:/core/images/cancel-button}}
+								<$text text=" "/>
+							<<aim-lingo ButtonClearAllAnswers>>
+						</$button>
+						<$reveal state=<<qualify "$:/state/popup/aim-clear">> type="popup" position="below" tag="div">
+							<div class="tc-drop-down-wrapper tc-aim-navigation-button-drop-down">
+								<div class="tc-drop-down">
+									<p>
+										<<aim-lingo ClearAnswersPrompt>>
+									</p>
+									<$button class="tc-aim-navigation-button tc-aim-navigation-button-clear">
+										<<clear-all-answers>>
+										<<aim-lingo ClearAnswersYes>>
+									</$button>
+									<$button class="tc-aim-navigation-button tc-aim-navigation-button-next">
+										<<aim-lingo ClearAnswersNo>>
+									</$button>
+								</div>
+							</div>
+						</$reveal>
 						<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]allbefore<currentTiddler>limit[1]]" variable="ignore">
 							<$button class="tc-aim-navigation-button tc-aim-navigation-button-previous">
 								<$action-setfield $tiddler=<<state>> $value={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]before<currentTiddler>] }}}/>
@@ -99,9 +127,11 @@ caption: <<aim-lingo TabQuestions>>
 						</$list>
 					</div>
 					<div class="tc-aim-navigation-footer">
-						<$vars question-number={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]count[]] }}}>
-							<<aim-lingo QuestionFooter>>
-						</$vars>
+						<div>
+							<$vars question-number={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]count[]] }}}>
+								<<aim-lingo QuestionFooter>>
+							</$vars>
+						</div>
 					</div>
 				</div>
 			</$vars>
