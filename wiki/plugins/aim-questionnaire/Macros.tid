@@ -7,6 +7,6 @@ tags: $:/tags/Macro
 
 \define aim-questionnaire()
 <div class="tc-aim-panel">
-<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Questions $:/plugins/federatial/aim-questionnaire/Results" default:"$:/plugins/federatial/aim-questionnaire/Questions">>
+<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Questions/Wizard $:/plugins/federatial/aim-questionnaire/Questions/List $:/plugins/federatial/aim-questionnaire/Results" default:"$:/plugins/federatial/aim-questionnaire/Questions/Wizard">>
 </div>
 \end

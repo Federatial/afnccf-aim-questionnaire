@@ -40,7 +40,8 @@ ResultsQuestionScores: Question Scores
 ResultsSubscaleScores: Subscale Scores
 ResultsTotalScore: Total Score:
 TabDownload: Download
-TabQuestions: Questions
+TabQuestionsWizard: Questions
+TabQuestionsList: Listing
 TabResults: Results
 TabScores: Scores
 TabSuggestedInterventions: Suggested Interventions

@@ -189,6 +189,21 @@ button.tc-aim-navigation-button:hover {
 .tc-aim-question-done {
 }
 
+.tc-aim-questions-list-category {
+	font-weight: bold;
+	color: #969696;
+	font-size: 1.4em;
+	line-height: 1.8em;
+}
+
+.tc-aim-questions-list-heading {
+	color: #969696;
+}
+
+.tc-aim-questions-list-question {
+
+}
+
 .tc-aim-results-interventions {
 	list-style: none;
 	padding-left: 0;

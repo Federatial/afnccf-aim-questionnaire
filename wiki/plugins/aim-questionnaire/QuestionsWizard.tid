@@ -1,5 +1,5 @@
-title: $:/plugins/federatial/aim-questionnaire/Questions
-caption: <<aim-lingo TabQuestions>>
+title: $:/plugins/federatial/aim-questionnaire/Questions/Wizard
+caption: <<aim-lingo TabQuestionsWizard>>
 
 \whitespace trim
 
@@ -36,12 +36,12 @@ caption: <<aim-lingo TabQuestions>>
 								<div class="tc-drop-down">
 									<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}sort[letter]get[letter]]" variable="category">
 										<div class={{{ [[tc-dropdown-item-plain]] +[join[ ]] }}}>
-											''<$transclude tiddler={{{ [tag{$:/config/federatial/aim-questionnaire/aim-category-tag}field:letter<category>] }}} field="caption"/>''
+											''<$transclude tiddler={{{ [all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}field:letter<category>] }}} field="caption"/>''
 										</div>
 										<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<category>]" variable="question">
 											<$button class={{{ [[tc-btn-invisible]] [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<question>has[text]then<question>get[category]addprefix[tc-aim-category-]] [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<question>get[text]else[no]match[yes]then[tc-aim-question-key-problem]] +[join[ ]] }}}>
 												<$action-setfield $tiddler=<<state>> $field="text" $value=<<question>>/>
-												<$text text={{{ [<question>get[number]] }}}/> — <$text text={{{ [<question>get[caption]] }}}/>
+												<$text text={{{ [<question>get[number]] }}}/><$text text=" "/>-<$text text=" "/><$text text={{{ [<question>get[caption]] }}}/>
 												<$vars answerTitle={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<question>] }}}>
 													<$list filter="[<answerTitle>get[text]else[no]match[yes]]">
 														<span class="tc-aim-question-key-problem-indicator">

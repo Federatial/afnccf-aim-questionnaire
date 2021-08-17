@@ -1,0 +1,65 @@
+title: $:/plugins/federatial/aim-questionnaire/Questions/List
+caption: <<aim-lingo TabQuestionsList>>
+
+\whitespace trim
+
+\define category-tag() AIMCategory
+\define question-tag() AIMQuestion
+\define key-question-reduction() [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>get[text]match[yes]then[1]else[0]add<accumulator>]
+\define max-key-questions() 6
+
+\define clear-all-answers()
+<$list filter="[tag<question-tag>]">
+<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
+<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
+</$list>
+\end
+
+<table>
+	<tbody>
+		<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}sort[letter]get[letter]]" variable="category">
+			<$vars category-class={{{ [<currentTiddler>get[category]addprefix[tc-aim-category-]] }}}>
+				<tr class="tc-aim-questions-list-category">
+					<td colspan="9">
+							<$transclude tiddler={{{ [all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}field:letter<category>] }}} field="caption"/>
+					</td>
+				</tr>
+				<tr class="tc-aim-questions-list-heading">
+					<td>No.</td>
+					<td>Key</td>
+					<td>Question</td>
+					<td>0+</td>
+					<td>0</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+				</tr>
+				<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}field:category<category>]" variable="question">
+					<$vars answerTitle={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<question>] }}} keyAnswerTitle={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<question>] }}}>
+						<tr class="tc-aim-questions-list-question">
+							<td>
+								<$text text={{{ [<question>get[number]] }}}/>
+							</td>
+							<td>
+								<$checkbox tiddler=<<keyAnswerTitle>> field="text" checked="yes" unchecked="no" default="no" disabled={{{ [<keyAnswerTitle>get[text]else[no]match[yes]then[no]]  [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}reduce<key-question-reduction>compare:number:gteq<max-key-questions>then[yes]] }}}/>
+							</td>
+							<td>
+								<$text text={{{ [<question>get[caption]] }}}/>
+							</td>
+							<$list filter="0plus 0 1 2 3 4" variable="answer">
+								<$vars answerFieldName={{{ [<answer>addprefix[answer]] }}}>
+									<td>
+										<$list filter="[<question>has<answerFieldName>]" variable="ignore">
+											<$radio tiddler=<<answerTitle>> field="text" value=<<answer>>/>
+										</$list>
+									</td>
+								</$vars>
+							</$list>
+						</tr>
+					</$vars>
+				</$list>
+			</$vars>
+		</$list>
+	</tbody>
+</table>
