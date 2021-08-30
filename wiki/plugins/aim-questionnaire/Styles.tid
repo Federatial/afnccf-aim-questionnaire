@@ -117,7 +117,7 @@ button.tc-aim-navigation-button-next:disabled svg {
 }
 
 button.tc-aim-navigation-button-results {
-	background: #ff4141;
+	background: #ffaf16;
 }
 
 button.tc-aim-navigation-button:hover {
