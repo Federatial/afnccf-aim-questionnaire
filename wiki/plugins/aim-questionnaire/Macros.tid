@@ -41,3 +41,25 @@ tags: $:/tags/Macro
 	</div>
 </$reveal>
 \end
+
+\define aim-incomplete-results-blocked()
+<p><br>
+<$vars questions-answered={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}count[]] }}}>
+<<aim-lingo ResultsNotAvailableBlocked>>
+</$vars>
+</p>
+\end
+
+\define aim-incomplete-results-warning-message()
+<p><br>
+<$vars questions-answered={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}count[]] }}}>
+<<aim-lingo ResultsNotAvailableWarning>>
+</$vars>
+</p>
+\end
+
+\define aim-incomplete-results-warning()
+<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]]">
+<<aim-incomplete-results-warning-message>>
+</$list>
+\end

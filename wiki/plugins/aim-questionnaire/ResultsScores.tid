@@ -97,15 +97,7 @@ caption: <<aim-lingo TabScores>>
 </table>
 \end
 
-\define incomplete-results()
-<p><br>
-<$vars questions-answered={{{ [{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]is[tiddler]count[]] }}} max-questions={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}count[]] }}}>
-<<aim-lingo ResultsNotAvailable>>
-</$vars>
-</p>
-\end
-
-<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]else[true]match[true]]" emptyMessage=<<incomplete-results>>>
+<$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]else[true]match[true]]" emptyMessage=<<aim-incomplete-results-blocked>>>
 
 <<show-scores>>
 

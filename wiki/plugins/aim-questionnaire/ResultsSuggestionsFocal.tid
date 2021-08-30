@@ -7,6 +7,8 @@ caption: <<aim-lingo TabSuggestionsFocal>>
 
 <<aim-lingo OverviewSuggestionsFocal>>
 
+<<aim-incomplete-results-warning>>
+
 <!-- Define a filter for to compute the average score of the questions tagged with the current intervention -->
 <$vars
     averageScoreForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]average[]]"

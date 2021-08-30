@@ -7,6 +7,8 @@ caption: <<aim-lingo TabSuggestionsLimit>>
 
 <<aim-lingo OverviewSuggestionsLimit>>
 
+<<aim-incomplete-results-warning>>
+
 <!-- Define a filter to compute the number of key questions tagged with the current intervention -->
 <$vars
     numberKeyQuestionsForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]match[yes]count[]]"

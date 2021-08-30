@@ -7,6 +7,8 @@ caption: <<aim-lingo TabSuggestionsGlobal>>
 
 <<aim-lingo OverviewSuggestionsGlobal>>
 
+<<aim-incomplete-results-warning>>
+
 <!--
 Define two filters:
 * a reduction filter to number of questions tagged with a particular intervention that have a score greater than 2
