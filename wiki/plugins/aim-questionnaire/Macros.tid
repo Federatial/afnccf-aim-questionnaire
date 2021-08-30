@@ -10,3 +10,34 @@ tags: $:/tags/Macro
 <<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Questions/Wizard $:/plugins/federatial/aim-questionnaire/Questions/List $:/plugins/federatial/aim-questionnaire/Results" default:"$:/plugins/federatial/aim-questionnaire/Questions/Wizard">>
 </div>
 \end
+
+\define aim-clear-all-answers-actions()
+<$list filter="[tag<question-tag>]">
+<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
+<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
+</$list>
+\end
+
+\define aim-clear-all-answers-button()
+<$button class="tc-aim-navigation-button tc-aim-navigation-button-clear" popup=<<qualify "$:/state/popup/aim-clear">>>
+		{{$:/core/images/cancel-button}}
+		<$text text=" "/>
+	<<aim-lingo ButtonClearAllAnswers>>
+</$button>
+<$reveal state=<<qualify "$:/state/popup/aim-clear">> type="popup" position="below" tag="div">
+	<div class="tc-drop-down-wrapper tc-aim-navigation-button-drop-down">
+		<div class="tc-drop-down">
+			<p>
+				<<aim-lingo ClearAnswersPrompt>>
+			</p>
+			<$button class="tc-aim-navigation-button tc-aim-navigation-button-clear">
+				<<aim-clear-all-answers-actions>>
+				<<aim-lingo ClearAnswersYes>>
+			</$button>
+			<$button class="tc-aim-navigation-button tc-aim-navigation-button-next">
+				<<aim-lingo ClearAnswersNo>>
+			</$button>
+		</div>
+	</div>
+</$reveal>
+\end

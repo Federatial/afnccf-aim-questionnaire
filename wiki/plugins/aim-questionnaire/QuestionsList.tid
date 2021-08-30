@@ -8,13 +8,6 @@ caption: <<aim-lingo TabQuestionsList>>
 \define key-question-reduction() [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>get[text]match[yes]then[1]else[0]add<accumulator>]
 \define max-key-questions() 6
 
-\define clear-all-answers()
-<$list filter="[tag<question-tag>]">
-<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
-<$action-deletetiddler $tiddler={{{ [{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]addsuffix[/]addsuffix<currentTiddler>] }}}/>
-</$list>
-\end
-
 <table>
 	<tbody>
 		<$list filter="[all[tiddlers+shadows]tag{$:/config/federatial/aim-questionnaire/aim-category-tag}sort[letter]get[letter]]" variable="category">
@@ -63,3 +56,7 @@ caption: <<aim-lingo TabQuestionsList>>
 		</$list>
 	</tbody>
 </table>
+
+<div class="tc-aim-navigation-buttons">
+	<<aim-clear-all-answers-button>>
+</div>
