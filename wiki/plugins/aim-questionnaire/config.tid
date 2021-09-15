@@ -3,3 +3,41 @@ title: $:/plugins/federatial/aim-questionnaire/config
 Tag used to identify AIM Questions: <$edit-text tiddler="$:/config/federatial/aim-questionnaire/aim-question-tag" tag="input"/>
 
 Tag used to identify AIM Categories: <$edit-text tiddler="$:/config/federatial/aim-questionnaire/aim-category-tag" tag="input"/>
+
+---
+
+<$list filter="[{$:/state/aim-questionnaire/edit-mode}!match[show]]" variable="ignore">
+<$button class="tc-btn-big-green">
+<$action-setfield $tiddler="$:/state/aim-questionnaire/edit-mode" $value="show"/>
+Switch on edit mode
+</$button>
+</$list>
+
+<$list filter="[{$:/state/aim-questionnaire/edit-mode}match[show]]" variable="ignore">
+<$button class="tc-btn-big-green" style="background-color: red;">
+<$action-setfield $tiddler="$:/state/aim-questionnaire/edit-mode" $value="hide"/>
+Switch off edit mode
+</$button>
+</$list>
+
+---
+
+Edit user interface strings:
+
+<div class="tc-aim-ui-editor-list">
+<$list filter="[[$:/plugins/federatial/aim-questionnaire/Language/en-GB]indexes[]sort[]]" variable="index">
+<div class="tc-aim-ui-editor-list-item">
+<div class="tc-aim-ui-editor-list-heading">
+''<$text text=<<index>>/>''<br>
+</div>
+<div class="tc-aim-ui-editor-list-body">
+<div class="tc-aim-ui-editor-list-body-item">
+//<$text text={{{ [[$:/plugins/federatial/aim-questionnaire/Language/en-GB]getindex<index>] }}}/>//
+</div>
+<div class="tc-aim-ui-editor-list-body-item">
+<$edit-text tiddler={{{ [{$:/language}get[name]] ~[[en-GB]] +[addprefix[$:/plugins/federatial/aim-questionnaire/Language/]] }}} index=<<index>> autoHeight="yes" minHeight="1em"/>
+</div>
+</div>
+</div>
+</$list>
+</div>

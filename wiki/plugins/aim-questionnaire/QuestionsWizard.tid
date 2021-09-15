@@ -108,6 +108,34 @@ caption: <<aim-lingo TabQuestionsWizard>>
 					</div>
 				</div>
 			</$vars>
+			<$list filter="[{$:/state/aim-questionnaire/edit-mode}match[show]]" variable="ignore">
+				<div class="tc-aim-navigation-edit-mode">
+					<div class="tc-aim-navigation-edit-mode-heading">
+					Edit question text
+					</div>
+					<div class="tc-aim-navigation-edit-mode-body">
+						<div class="tc-aim-navigation-edit-mode-item">
+							Question caption:
+							<$edit-text field="caption" tag="textarea" autoHeight="yes" minHeight="1em"/>
+						</div>
+						<div class="tc-aim-navigation-edit-mode-item">
+							Question text:
+							<$edit-text field="text" autoHeight="yes" minHeight="1em"/>
+						</div>
+						<$list filter={{!!list}} variable="answer">
+							<$vars answerFieldName={{{ [<answer>addprefix[answer]] }}}>
+								<div class="tc-aim-navigation-edit-mode-item">
+									<$text text=<<answer>>/>:
+									<$edit-text field=<<answerFieldName>> tag="textarea" autoHeight="yes" minHeight="1em"/>
+								</div>
+							</$vars>
+						</$list>
+						<div class="tc-aim-navigation-edit-mode-item">
+							Question tiddler is from bag: <$text text={{{ [[$:/state/federatial/xememex/tiddlers/bag]getindex<currentTiddler>] }}}/>
+						</div>
+					</div>
+				</div>
+			</$list>
 		</$tiddler>
 	</$set>
 </$set>

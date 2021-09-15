@@ -177,7 +177,6 @@ button.tc-aim-navigation-button:hover {
 	padding: 0.25em;
 }
 
-
 .tc-aim-question .tc-aim-answer-selected {
 	background-color: #ffff77;
 }
@@ -187,6 +186,31 @@ button.tc-aim-navigation-button:hover {
 }
 
 .tc-aim-question-done {
+}
+
+.tc-aim-navigation-edit-mode {
+	margin-top: 1em;
+	border: 1px solid <<colour tab-divider>>;
+	background-color: #e0bfbb20;
+}
+
+.tc-aim-navigation-edit-mode-heading {
+	background-color: #333;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tc-aim-navigation-edit-mode-body {
+	padding: 0 1em;
+}
+
+.tc-aim-navigation-edit-mode-item {
+	margin: 1em 0;
+}
+
+.tc-aim-navigation-edit-mode-item textarea {
+	width: 100%;
 }
 
 .tc-aim-questions-list-category {
@@ -297,3 +321,27 @@ button.tc-aim-navigation-button:hover {
 .tc-aim-category-H {background-color: #f79577;}
 
 .tc-aim-category-H.tc-aim-category-faded {background-color: #f7957720;}
+
+.tc-aim-ui-editor-list {
+}
+
+.tc-aim-ui-editor-list-item {
+	background-color: #e8e8e8;
+	margin-bottom: 1em;
+}
+
+.tc-aim-ui-editor-list textarea {
+	width: 100%;
+}
+
+.tc-aim-ui-editor-list-heading {
+	background: #333;
+	color: #fff;
+}
+
+.tc-aim-ui-editor-list-body {
+	padding: 0 1em;
+}
+
+.tc-aim-ui-editor-list-body-item {
+}
