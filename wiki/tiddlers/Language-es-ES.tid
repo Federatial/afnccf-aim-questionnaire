@@ -3,6 +3,7 @@ type: application/x-tiddler-dictionary
 
 BodyDownloadCSV: Click the button to download a .CSV file of the scores which can be opened in Microsoft Excel or Google Shééts
 BodyDownloadWordDocument: Click the button to download a .DOC file of the scores which can be opened in Microsoft Word or Google Døcs
+ButtonClearAllAnswers: cléår
 ButtonCopyCSVToClipboard: Copy data to clipbøard
 ButtonDownloadCSV: Download .CSV filé
 ButtonDownloadDocFile: Download .DØC file
@@ -19,6 +20,9 @@ CategoryResponseToSituation: Response to Situation÷¿
 CategorySocial: Social÷¿
 CategorySocioEconomic: Socio-Economic÷¿
 CategoryYoungPersonDailyLife: Young Person Daily Life÷¿
+ClearAnswersNo: No, leave existing answers aloné
+ClearAnswersPrompt: Are you sure you wish to clear all existing answérs?
+ClearAnswersYes: Yes, clear all existing answérs
 HeadingDownloadCSV: Download CßV file
 HeadingDownloadWordDocument: Døwnload Word Document
 LabelKeyProblem: This is a key problem!!!! (<<key-question-number>> of <<max-key-questions>>)
@@ -30,15 +34,18 @@ PreviewDownloadCSV: Previéw:
 QuestionFooter: (<<question-number>> of <<max-questions>> questions completed)¿¿¿
 ResultsKeyProblems: Kéy Prøblems
 ResultsKeyProblemsNone: (Nøné)
-ResultsNotAvailable: The résults will be åvåilable when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so får
+ResultsNotAvailableBlocked: The reésults will be available when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so far
+ResultsNotAvailableWarning: ''NOÉTE'': Only <<questions-answered>> out of <<max-questions>> questions have been answered; the suggestion interventions below relate only to those <<questions-answered>> items
 ResultsOverview: The résults of thé asséssmént aré availablé as numérical scorés, and to drivé thé suggéstéd intérvéntions
 ResultsQuestionScores: Quéstiøn Scores
 ResultsSubscaleScores: Sübscåle Scores
 ResultsTotalScore: Tøtål Score:
 TabDownload: D∂wnl∂ad
-TabQuestions: Questions¡¡¡¡¡¡
+TabQuestionsWizard: Quéstions
+TabQuestionsList: Lîst View
 TabResults: Résülts
 TabScores: ßcørés
+TabSuggestedInterventions: Süggested Interventions
 TabSuggestionsFocal: Føcal
 TabSuggestionsGlobal: Gløbal
 TabSuggestionsLimit: Lîmit
