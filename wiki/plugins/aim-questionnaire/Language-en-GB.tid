@@ -36,7 +36,6 @@ ResultsKeyProblems: Key Problems
 ResultsKeyProblemsNone: (None)
 ResultsNotAvailableBlocked: The results will be available when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so far
 ResultsNotAvailableWarning: ''NOTE'': Only <<questions-answered>> out of <<max-questions>> questions have been answered; the suggestion interventions below relate only to those <<questions-answered>> items
-These suggestions when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so far
 ResultsOverview: The results of the assessment are available as numerical scores, and to drive the suggested interventions
 ResultsQuestionScores: Question Scores
 ResultsSubscaleScores: Subscale Scores
