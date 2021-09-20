@@ -43,7 +43,12 @@ caption: <<aim-lingo TabSuggestionsLimit>>
 <$list filter="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<keyQuestionsForIntervention>]" variable="question">
 <li>
 <!-- Display the question -->
-<$link to=<<question>>><$text text=<<question>>/></$link>
+<$link to=<<question>>>
+<$text text={{{ [<question>get[number]] }}}/>
+<$transclude tiddler={{{ [<question>get[category]addprefix[$:/plugins/federatial/aim-questionnaire/Categories/]] }}} field="caption" mode="inline"/>
+-
+<$text text={{{ [<question>get[caption]] }}}/>
+</$link>
 </li>
 </$list>
 </ol>

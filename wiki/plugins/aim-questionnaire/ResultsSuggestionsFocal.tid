@@ -44,7 +44,12 @@ caption: <<aim-lingo TabSuggestionsFocal>>
 <$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<averageScoreForIntervention>compare:number:ne[0]]" variable="question">
 <li>
 <!-- Display the question and its score -->
-<$link to=<<question>>><$text text=<<question>>/></$link> (<$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]] }}}/>)
+<$link to=<<question>>>
+<$text text={{{ [<question>get[number]] }}}/>
+<$transclude tiddler={{{ [<question>get[category]addprefix[$:/plugins/federatial/aim-questionnaire/Categories/]] }}} field="caption" mode="inline"/>
+-
+<$text text={{{ [<question>get[caption]] }}}/>
+</$link> (<$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]] }}}/>)
 </li>
 </$list>
 </ol>
