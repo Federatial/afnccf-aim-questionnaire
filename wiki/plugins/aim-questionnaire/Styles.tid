@@ -3,6 +3,14 @@ tags: $:/tags/Stylesheet
 
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
 
+html body.tc-body .tc-tiddler-frame.tc-tagged-AIMQuestion .tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fedit,
+html body.tc-body .tc-tiddler-frame.tc-tagged-AIMQuestion .tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Finfo,
+html body.tc-body .tc-tiddler-frame.tc-tagged-AIMQuestion .tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fmore-tiddler-actions,
+html body.tc-body .tc-tiddler-frame.tc-tagged-AIMQuestion .tc-tag-list-item[data-tag-title="AIMQuestion"],
+html body.tc-body .tc-tiddler-frame.tc-tagged-AIMQuestion .tc-tag-list-item[data-tag-title="hide-subpage"] {
+	display: none;
+}
+
 .tc-aim-panel .tc-tab-set > .tc-tab-buttons button {
 	font-size: 1.2em;
 	font-weight: bold;
