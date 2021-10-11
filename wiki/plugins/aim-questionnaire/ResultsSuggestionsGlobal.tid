@@ -54,7 +54,7 @@ Define two filters:
 <$transclude tiddler={{{ [<question>get[category]addprefix[$:/plugins/federatial/aim-questionnaire/Categories/]] }}} field="caption" mode="inline"/>
 -
 <$text text={{{ [<question>get[caption]] }}}/>
-</$link> (rating <$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]] }}}/>)
+</$link> (rating <$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[-]] }}}/>)
 </li>
 </$list>
 </ol>
