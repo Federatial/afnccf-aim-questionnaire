@@ -19,6 +19,7 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal/DocTemp
 </h2>
 <!-- Loop through the questions tagged with this intervention -->
 <$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<averageScoreForIntervention>compare:number:ne[0]]" variable="question">
+<$list filter="[<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]has[text]]" variable="ignore">
 <!-- Display the question and its score -->
 <p class="tc-list-item">
 <$text text={{{ [<question>get[number]] }}}/>
@@ -27,6 +28,7 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal/DocTemp
 <$text text={{{ [<question>get[caption]] }}}/>
 (<$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[-]] }}}/>)
 </p>
+</$list>
 </$list>
 </$list>
 </$list>

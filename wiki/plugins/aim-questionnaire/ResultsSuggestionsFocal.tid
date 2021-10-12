@@ -42,6 +42,7 @@ caption: <<aim-lingo TabSuggestionsFocal>>
 <ol class="tc-aim-results-intervention-questions">
 <!-- Loop through the questions tagged with this intervention -->
 <$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<averageScoreForIntervention>compare:number:ne[0]]" variable="question">
+<$list filter="[<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]has[text]]" variable="ignore">
 <li>
 <!-- Display the question and its score -->
 <$link to=<<question>>>
@@ -51,6 +52,7 @@ caption: <<aim-lingo TabSuggestionsFocal>>
 <$text text={{{ [<question>get[caption]] }}}/>
 </$link> (<$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[-]] }}}/>)
 </li>
+</$list>
 </$list>
 </ol>
 </$reveal>
