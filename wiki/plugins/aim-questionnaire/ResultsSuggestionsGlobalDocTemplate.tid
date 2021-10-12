@@ -1,0 +1,40 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Global/DocTemplate
+
+! Global
+
+<<aim-lingo OverviewSuggestionsGlobal>>
+
+<!--
+Define two filters:
+* a reduction filter to number of questions tagged with a particular intervention that have a score greater than 2
+* a sorting filter to sort interventions by the number of questions scoring greater than 2
+* a filtering filter to select questions scoring greater than 2
+-->
+<$vars
+    global-ranking-reduction="[{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]else[0]compare:number:gt[2]then[1]else[0]add<accumulator>]"
+    global-ranking-sort="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>] +[reduce<global-ranking-reduction>]"
+    global-ranking-filter="[addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]compare:number:gt[2]]"
+>
+<!-- Loop through the interventions, descendly sorted by the number of questions scoring greater than 2 -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] -[[hide-subpage]] +[!sortsub:number<global-ranking-sort>]">
+<!-- Ignore any interventions that have zero questions scoring greater than 2 -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>] +[reduce<global-ranking-reduction>compare:number:ne[0]]" variable="ignore">
+<!-- Display the question and the number of answers scoring greater than 2 -->
+<h2>
+<$text text={{{ [tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>] +[reduce<global-ranking-reduction>] }}}/>
+<$text text=<<currentTiddler>>/>
+</h2>
+<!-- Loop through the questions tagged with this intervention that have answers scoring greater than 2 -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<global-ranking-filter>]" variable="question">
+<!-- Display the question and its score -->
+<p class="tc-list-item">
+<$text text={{{ [<question>get[number]] }}}/>
+<$transclude tiddler={{{ [<question>get[category]addprefix[$:/plugins/federatial/aim-questionnaire/Categories/]] }}} field="caption" mode="inline"/>
+-
+<$text text={{{ [<question>get[caption]] }}}/>
+(rating <$text text={{{ [<question>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[-]] }}}/>)
+</p>
+</$list>
+</$list>
+</$list>
+</$vars>

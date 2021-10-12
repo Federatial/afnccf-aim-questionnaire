@@ -1,0 +1,33 @@
+title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit/DocTemplate
+
+! Limit
+
+<<aim-incomplete-results-warning>>
+
+<!-- Define a filter to compute the number of key questions tagged with the current intervention -->
+<$vars
+    numberKeyQuestionsForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]match[yes]count[]]"
+    keyQuestionsForIntervention="[addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]field:text[yes]]"
+>
+<!-- Loop through all the interventions, descendingly sorted by their  score -->
+<$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}] +[tags[]] -[{$:/config/federatial/aim-questionnaire/aim-question-tag}] -[[hide-subpage]] +[!sortsub:number<numberKeyQuestionsForIntervention>]">
+<!-- Skip any interventions whose average score is zero -->
+<$list filter="[subfilter<numberKeyQuestionsForIntervention>compare:number:ne[0]limit[1]]" variable="ignore">
+<!-- Display the intervention and average score -->
+<h2>
+<$text text={{{ [all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]field:text[yes]count[]] }}}/>
+<$text text=<<currentTiddler>>/>
+</h2>
+<!-- Loop through the questions tagged with this intervention -->
+<$list filter="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>filter<keyQuestionsForIntervention>]" variable="question">
+<!-- Display the question -->
+<p class="tc-list-item">
+<$text text={{{ [<question>get[number]] }}}/>
+<$transclude tiddler={{{ [<question>get[category]addprefix[$:/plugins/federatial/aim-questionnaire/Categories/]] }}} field="caption" mode="inline"/>
+-
+<$text text={{{ [<question>get[caption]] }}}/>
+</p>
+</$list>
+</$list>
+</$list>
+</$vars>

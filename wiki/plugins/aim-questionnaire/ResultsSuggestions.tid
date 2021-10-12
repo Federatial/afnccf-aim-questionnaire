@@ -3,4 +3,9 @@ caption: <<aim-lingo TabSuggestedInterventions>>
 
 <<aim-lingo OverviewSuggestedInterventions>>
 
+<$button class="tc-btn-big-green">
+<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate" filename="results.doc"/>
+{{$:/core/images/download-button}} <<aim-lingo BodyDownloadSuggestionsWordDocument>>
+</$button>
+
 <<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Global $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit" default:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal">>

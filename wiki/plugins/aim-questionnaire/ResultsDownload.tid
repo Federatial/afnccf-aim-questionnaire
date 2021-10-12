@@ -2,13 +2,13 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Download
 caption: <<aim-lingo TabDownload>>
 
 \define download-scores()
-! <<aim-lingo HeadingDownloadWordDocument>>
+! <<aim-lingo HeadingDownloadScoresWordDocument>>
 
-<<aim-lingo BodyDownloadWordDocument>>
+<<aim-lingo BodyDownloadScoresWordDocument>>
 
 <$button class="tc-btn-big-green">
 <$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/Results/Scores/DocTemplate" filename="results.doc"/>
-{{$:/core/images/download-button}} <<aim-lingo ButtonDownloadDocFile>>
+{{$:/core/images/download-button}} <<aim-lingo BodyDownloadScoresWordDocument>>
 </$button>
 
 ! <<aim-lingo HeadingDownloadCSV>>
