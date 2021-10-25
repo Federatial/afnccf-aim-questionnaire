@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "npx tiddlywiki wiki --load languages/en-GB/ --listen",
-    "build": "npx tiddlywiki wiki --output ./output --load languages/en-GB/ --build index && npx tiddlywiki wiki --output ./output/es-ES --load languages/es-ES/ --build index"
+    "build": "npx tiddlywiki wiki --output ./output --load languages/en-GB/ --build index && npx tiddlywiki wiki --output ./output/es-ES --load languages/es-ES/ --build index && npx tiddlywiki wiki --output ./output/de-DE --load languages/de-DE/ --build index"
   },
   "repository": {
     "type": "git",

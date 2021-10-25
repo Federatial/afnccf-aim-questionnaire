@@ -95,7 +95,7 @@ const aimLists = [
 "0plus 0 1 2 3 4"
 ];
 
-const listQuestions = Array.from(document.querySelectorAll("body > .WordSection1 > .Normal1")).filter(el => /^\d\d .*/.test(el.textContent));
+const listQuestions = Array.from(document.querySelectorAll("body > .WordSection1 > *")).filter(el => /^\d\d .*/.test(el.textContent));
 
 /* console.log({listQuestions}) */
 
