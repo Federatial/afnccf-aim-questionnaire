@@ -1,51 +1,52 @@
 title: $:/plugins/federatial/aim-questionnaire/Language/es-ES
 type: application/x-tiddler-dictionary
 
-BodyDownloadCSV: Click the button to download a .CSV file of the scores which can be opened in Microsoft Excel or Google Shééts
-BodyDownloadWordDocument: Click the button to download a .DOC file of the scores which can be opened in Microsoft Word or Google Døcs
-ButtonClearAllAnswers: cléår
-ButtonCopyCSVToClipboard: Copy data to clipbøard
-ButtonDownloadCSV: Download .CSV filé
-ButtonDownloadDocFile: Download .DØC file
-ButtonHideQuestions: hîdé questions
-ButtonNext: next¿
-ButtonPrevious: previous¡
-ButtonShowAllQuestions: show all questions¡
-ButtonShowQuestions: shøw questions
-CategoryFamily: Family÷¿
-CategoryMeasureOfComplexity: Measure of Complexity÷¿
-CategoryMentalState: Mental State÷¿
-CategoryPowerAndControl: Power and Control÷¿
-CategoryResponseToSituation: Response to Situation÷¿
-CategorySocial: Social÷¿
-CategorySocioEconomic: Socio-Economic÷¿
-CategoryYoungPersonDailyLife: Young Person Daily Life÷¿
-ClearAnswersNo: No, leave existing answers aloné
-ClearAnswersPrompt: Are you sure you wish to clear all existing answérs?
-ClearAnswersYes: Yes, clear all existing answérs
-HeadingDownloadCSV: Download CßV file
-HeadingDownloadWordDocument: Døwnload Word Document
-LabelKeyProblem: This is a key problem!!!! (<<key-question-number>> of <<max-key-questions>>)
-OverviewSuggestedInterventions: Suggested interventions based on the asséssment
-OverviewSuggestionsFocal: Eåch suggested intervention is ranked in order of how ''severe'' the set of problems are (their averaged AIM scores) that indicate that particular intervention. This is good for ''focusing on the most severe problems''
-OverviewSuggestionsGlobal: Eåch suggested intervention is ranked according to how many different problems (that is AIM items scoring greater than 2) the young person has which that particular intervention is relevant for. This is good for ''covering the whole set of problems and causes''
-OverviewSuggestionsLimit: Lîmit suggested interventions only to those relevant for items identified as ''key problems''
-PreviewDownloadCSV: Previéw:
-QuestionFooter: (<<question-number>> of <<max-questions>> questions completed)¿¿¿
-ResultsKeyProblems: Kéy Prøblems
-ResultsKeyProblemsNone: (Nøné)
-ResultsNotAvailableBlocked: The reésults will be available when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so far
-ResultsNotAvailableWarning: ''NOÉTE'': Only <<questions-answered>> out of <<max-questions>> questions have been answered; the suggestion interventions below relate only to those <<questions-answered>> items
-ResultsOverview: The résults of thé asséssmént aré availablé as numérical scorés, and to drivé thé suggéstéd intérvéntions
-ResultsQuestionScores: Quéstiøn Scores
-ResultsSubscaleScores: Sübscåle Scores
-ResultsTotalScore: Tøtål Score:
-TabDownload: D∂wnl∂ad
-TabQuestionsWizard: Quéstions
-TabQuestionsList: Lîst View
-TabResults: Résülts
-TabScores: ßcørés
-TabSuggestedInterventions: Süggested Interventions
-TabSuggestionsFocal: Føcal
-TabSuggestionsGlobal: Gløbal
-TabSuggestionsLimit: Lîmit
+BodyDownloadCSV: Click the button to download a .CSV file of the scores which can be opened in Microsoft Excel or Google Sheets
+BodyDownloadScoresWordDocument: Click the button to download a .DOC file of the scores which can be opened in Microsoft Word or Google Docs
+ButtonClearAllAnswers: clear
+ButtonCopyCSVToClipboard: Copy scores data to clipboard
+ButtonDownloadCSV: Download scores .CSV file
+BodyDownloadScoresWordDocument: Download scores .DOC file
+BodyDownloadSuggestionsWordDocument: Download suggestions .DOC file
+ButtonHideQuestions: hide questions
+ButtonNext: next
+ButtonPrevious: previous
+ButtonShowAllQuestions: show all questions
+ButtonShowQuestions: show questions
+CategoryFamily: Family
+CategoryMeasureOfComplexity: Measure of Complexity
+CategoryMentalState: Mental State
+CategoryPowerAndControl: Power and Control
+CategoryResponseToSituation: Response to Situation
+CategorySocial: Social
+CategorySocioEconomic: Socio-Economic
+CategoryYoungPersonDailyLife: Young Person Daily Life
+ClearAnswersNo: No, leave existing answers alone
+ClearAnswersPrompt: Are you sure you wish to clear all existing answers?
+ClearAnswersYes: Yes, clear all existing answers
+HeadingDownloadCSV: Download CSV file
+HeadingDownloadWordDocument: Download results as Word Document
+LabelKeyProblem: This is a key problem (<<key-question-number>> of <<max-key-questions>>)
+OverviewSuggestedInterventions: These interventions are suggestions according to the AIM results and are based on available evidence. They are a guide and can be useful as a way of checking that these options have been considered, rather than directing a worker to what they must do.
+OverviewSuggestionsFocal: Each suggested intervention is ranked in order of how ''severe'' the set of problems are (their averaged AIM scores) that indicate that particular intervention. This is good for ''focusing on the most severe problems''
+OverviewSuggestionsGlobal: Each suggested intervention is ranked according to how many different problems (that is AIM items scoring greater than 2) the young person has which that particular intervention is relevant for. This is good for ''covering the whole set of problems and causes''
+OverviewSuggestionsLimit: Limit suggested interventions only to those relevant for items identified as ''key problems''
+PreviewDownloadCSV: Preview:
+QuestionFooter: (<<question-number>> of <<max-questions>> questions completed)
+ResultsKeyProblems: Key Problems
+ResultsKeyProblemsNone: (None)
+ResultsNotAvailableBlocked: The results will be available when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so far
+ResultsNotAvailableWarning: ''NOTE'': Only <<questions-answered>> out of <<max-questions>> questions have been answered; the suggestion interventions below relate only to those <<questions-answered>> items
+ResultsOverview: The results of the assessment are available as numerical scores, and to drive the suggested interventions. [[Guide to scoring AIM data|Scoring AIM data]]
+ResultsQuestionScores: Question Scores
+ResultsSubscaleScores: Subscale Scores
+ResultsTotalScore: Total Score:
+TabDownload: Download
+TabQuestionsWizard: Questions
+TabQuestionsList: List View
+TabResults: Results
+TabScores: Scores
+TabSuggestedInterventions: Suggested Interventions
+TabSuggestionsFocal: Focal
+TabSuggestionsGlobal: Global
+TabSuggestionsLimit: Limit
