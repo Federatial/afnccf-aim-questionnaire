@@ -9,6 +9,11 @@ caption: <<aim-lingo TabSuggestionsFocal>>
 
 <<aim-incomplete-results-warning>>
 
+<$button class="tc-btn-big-green">
+<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate" filename="results.doc" content="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal/DocTemplate"/>
+{{$:/core/images/download-button}} <<aim-lingo BodyDownloadSuggestionsWordDocument>>
+</$button>
+
 <!-- Define a filter for to compute the average score of the questions tagged with the current intervention -->
 <$vars
 	averageScoreForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]get[text]else[0]average[]]"

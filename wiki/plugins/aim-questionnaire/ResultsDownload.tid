@@ -9,11 +9,6 @@ caption: <<aim-lingo TabDownload>>
 {{$:/core/images/download-button}} <<aim-lingo BodyDownloadScoresWordDocument>>
 </$button>
 
-<$button class="tc-btn-big-green">
-<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate" filename="aim-suggestions.doc"/>
-{{$:/core/images/download-button}} <<aim-lingo BodyDownloadSuggestionsWordDocument>>
-</$button>
-
 ! <<aim-lingo HeadingDownloadCSV>>
 
 <<aim-lingo BodyDownloadCSV>>

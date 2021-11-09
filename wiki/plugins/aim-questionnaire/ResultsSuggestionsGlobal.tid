@@ -9,6 +9,10 @@ caption: <<aim-lingo TabSuggestionsGlobal>>
 
 <<aim-incomplete-results-warning>>
 
+<$button class="tc-btn-big-green">
+<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate" filename="results.doc" content="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Global/DocTemplate"/>
+{{$:/core/images/download-button}} <<aim-lingo BodyDownloadSuggestionsWordDocument>>
+</$button>
 <!--
 Define two filters:
 * a reduction filter to number of questions tagged with a particular intervention that have a score greater than 2

@@ -9,6 +9,11 @@ caption: <<aim-lingo TabSuggestionsLimit>>
 
 <<aim-incomplete-results-warning>>
 
+<$button class="tc-btn-big-green">
+<$action-sendmessage $message="tm-download-file" $param="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate" filename="results.doc" content="$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit/DocTemplate"/>
+{{$:/core/images/download-button}} <<aim-lingo BodyDownloadSuggestionsWordDocument>>
+</$button>
+
 <!-- Define a filter to compute the number of key questions tagged with the current intervention -->
 <$vars
     numberKeyQuestionsForIntervention="[all[tiddlers]tag{$:/config/federatial/aim-questionnaire/aim-question-tag}tag<currentTiddler>addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/KeyAnswer/]get[text]match[yes]count[]]"

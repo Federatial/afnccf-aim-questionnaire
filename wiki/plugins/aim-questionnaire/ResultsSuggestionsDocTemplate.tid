@@ -7,9 +7,9 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate
   <meta charset="utf-8">
   <title>AIM Assessment Results</title>
   <style>
-  body {
+  html,body,p {
     font-family: "Verdana", sans-serif;
-	font-size: 10px;
+	font-size: 18px;
 	line-height: 1.2;
   }
   .tc-list-item {
@@ -19,7 +19,7 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate
   h1, h2, h3, h4, h5, h6 {
 	  line-height: 1.2;
 	  font-weight: bold;
-	  margin: 0.5em;
+	  margin: 0.5em 0;
   }
   h1 {
 	  font-size: 17px;
@@ -39,18 +39,57 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate
   h6 {
 	  font-size: 12px;
   }
+
+	table {
+		width: auto;
+		max-width: 100%;
+		caption-side: bottom;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		border: 0.5px solid #000;
+	}
+
+	table th, table td {
+		border: 1px solid #000;
+		margin: 0.2em;
+		padding: 0;
+		text-align: left;
+	}
+
+	table thead tr td, table th {
+		font-weight: bold;
+	}
+
+	table tfoot tr td {
+	}
+
   </style>
 </head>
 <body>
 <h1>AIM Assessment Suggestions</h1>
-<p style="font-style:italic;">`<$wikify name="date" text="<<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>>"><$text text={{{ [<date>format:date[hh:mm, DDth MMM YYYY]] }}} /></$wikify>`</p>
-<p style="font-weight:bold;">Client name:</p>
-<p style="font-weight:bold;">DOB:</p>
-<p style="font-weight:bold;">Name of person completing AIM:</p>`
+<table border="1" cellspacing="0" cellpadding="0">
+<tr>
+<th>Date</th>
+<td>`<$vars date=<<now [UTC]YYYY0MM0DD0hh0mm0ssXXX>>><$text text={{{ [<date>format:date[0hh:0mm, DDth MMM YYYY]] }}} /></$vars>`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<th>Client Name</th>
+<td></td>
+</tr>
+<tr>
+<th>D.O.B.</th>
+<td></td>
+</tr>
+<th>Completed by</th>
+<td></td>
+</tr>
+</table>
+<p>`
 <<aim-lingo OverviewSuggestedInterventions>>
 <<aim-incomplete-results-warning>>
-{{$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Global/DocTemplate||$:/core/templates/html-tiddler}}
-{{$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Focal/DocTemplate||$:/core/templates/html-tiddler}}
-{{$:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit/DocTemplate||$:/core/templates/html-tiddler}}
+`</p>`
+<$tiddler tiddler=<<content>>>
+<$transclude tiddler="$:/core/templates/html-tiddler"/>
+</$tiddler>
 `</body>
 </html>`
