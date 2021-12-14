@@ -1,52 +1,32 @@
 title: $:/plugins/federatial/aim-questionnaire/Language/es-ES
-type: application/x-tiddler-dictionary
+type: application/json
 
-BodyDownloadCSV: Click the button to download a .CSV file of the scores which can be opened in Microsoft Excel or Google Sheets
-BodyDownloadScoresWordDocument: Click the button to download a .DOC file of the scores which can be opened in Microsoft Word or Google Docs
-ButtonClearAllAnswers: clear
-ButtonCopyCSVToClipboard: Copy scores data to clipboard
-ButtonDownloadCSV: Download scores .CSV file
-BodyDownloadScoresWordDocument: Download scores .DOC file
-BodyDownloadSuggestionsWordDocument: Download suggestions .DOC file
-ButtonHideQuestions: hide questions
-ButtonNext: next
-ButtonPrevious: previous
-ButtonShowAllQuestions: show all questions
-ButtonShowQuestions: show questions
-CategoryFamily: Family
-CategoryMeasureOfComplexity: Measure of Complexity
-CategoryMentalState: Mental State
-CategoryPowerAndControl: Power and Control
-CategoryResponseToSituation: Response to Situation
-CategorySocial: Social
-CategorySocioEconomic: Socio-Economic
-CategoryYoungPersonDailyLife: Young Person Daily Life
-ClearAnswersNo: No, leave existing answers alone
-ClearAnswersPrompt: Are you sure you wish to clear all existing answers?
-ClearAnswersYes: Yes, clear all existing answers
-HeadingDownloadCSV: Download CSV file
-HeadingDownloadWordDocument: Download results as Word Document
-LabelKeyProblem: This is a key problem (<<key-question-number>> of <<max-key-questions>>)
-OverviewSuggestedInterventions: These interventions are suggestions according to the AIM results and are based on available evidence. They are a guide and can be useful as a way of checking that these options have been considered, rather than directing a worker to what they must do.
-OverviewSuggestionsFocal: Each suggested intervention is ranked in order of how ''severe'' the set of problems are (their averaged AIM scores) that indicate that particular intervention. This is good for ''focusing on the most severe problems''
-OverviewSuggestionsGlobal: Each suggested intervention is ranked according to how many different problems (that is AIM items scoring greater than 2) the young person has which that particular intervention is relevant for. This is good for ''covering the whole set of problems and causes''
-OverviewSuggestionsLimit: Limit suggested interventions only to those relevant for items identified as ''key problems''
-PreviewDownloadCSV: Preview:
-QuestionFooter: (<<question-number>> of <<max-questions>> questions completed)
-ResultsKeyProblems: Key Problems
-ResultsKeyProblemsNone: (None)
-ResultsNotAvailableBlocked: The results will be available when all <<max-questions>> questions have been answered – <<questions-answered>> have been answered so far
-ResultsNotAvailableWarning: ''NOTE'': Only <<questions-answered>> out of <<max-questions>> questions have been answered; the suggestion interventions below relate only to those <<questions-answered>> items
-ResultsOverview: The results of the assessment are available as numerical scores, and to drive the suggested interventions. [[Guide to scoring AIM data|Scoring AIM data]]
-ResultsQuestionScores: Question Scores
-ResultsSubscaleScores: Subscale Scores
-ResultsTotalScore: Total Score:
-TabDownload: Download
-TabQuestionsWizard: Questions
-TabQuestionsList: List View
-TabResults: Results
-TabScores: Scores
-TabSuggestedInterventions: Suggested Interventions
-TabSuggestionsFocal: Focal
-TabSuggestionsGlobal: Global
-TabSuggestionsLimit: Limit
+{
+    "TabQuestionsWizard": "Preguntas",
+    "ButtonNext": "Siguiente",
+    "ButtonPrevious": "Anterior",
+    "ButtonDownloadCSV": "Descargar resultados archivo .CSV",
+    "ButtonShowAllQuestions": "Mostrar todas las respuestas",
+    "ButtonClearAllAnswers": "Borrar\n",
+    "CategoryYoungPersonDailyLife": "Dia a dia de la persona joven",
+    "BodyDownloadCSV": "Haga clic en el botón para descargar un archivo .CSV de las puntuaciones que se puede abrir en Microsoft Excel o Google Sheets",
+    "BodyDownloadScoresWordDocument": "Descargar puntuaciones. DOC file ",
+    "BodyDownloadSuggestionsWordDocument": "Descargar sugerencias. DOC file",
+    "ButtonCopyCSVToClipboard": "Copiar datos de puntuaciones al portapapeles",
+    "ButtonHideQuestions": "Ocultar Preguntas",
+    "ButtonShowQuestions": "Mostrar preguntas",
+    "CategoryFamily": "Família",
+    "CategoryMeasureOfComplexity": "Medida de complejidad",
+    "CategoryMentalState": "Estado Mental",
+    "CategoryPowerAndControl": "Poder y Control",
+    "CategoryResponseToSituation": "Respuesta a las situaciones",
+    "CategorySocial": "Social",
+    "CategorySocioEconomic": "Socio-Económico",
+    "ClearAnswersNo": "No, deja las respuestas existentes",
+    "ClearAnswersPrompt": "¿Está seguro de que desea eliminar todas las respuestas existentes?",
+    "ClearAnswersYes": "Si, borrar todas las respuestas existentes",
+    "HeadingDownloadCSV": "Descargar CSV file",
+    "HeadingDownloadWordDocument": "Descargar resultados como documento de Word",
+    "LabelKeyProblem": "Este es un problema clave (<<key-question-number) de <<max-key-questions>>)",
+    "OverviewSuggestedInterventions": "Estas intervenciones son sugerencias de acuerdo con los resultados de AIM y se basan en la evidencia disponible. Son una guía y pueden ser útiles como una forma de comprobar que se han considerado estas opciones, en lugar de orientar al trabajador hacia lo que debe hacer."
+}
