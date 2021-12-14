@@ -7,7 +7,7 @@ title: $:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate
 <<now "YYYY-MM-DD">>
 <$text text=<<separator>>/>
 <$list filter="[tag{$:/config/federatial/aim-questionnaire/aim-question-tag}sortsub:number<sortby>]" counter="counter">
-<$text text={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]] ~[[missing]] }}}/>
+<$text text={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/]addsuffix<currentTiddler>get[text]] ~[[missing]] =0 +[replace[0plus]] }}}/>
 <$list filter="[<counter-last>!match[yes]]">
 <$text text=<<separator>>/>
 </$list>
