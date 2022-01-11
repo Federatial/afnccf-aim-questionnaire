@@ -250,7 +250,7 @@ button.tc-aim-navigation-button:hover {
 	display: inline-block;
 	text-align: center;
 	font-weight: bold;
-	background-color: #2eb547;
+	background-color: #34c734;
 	color: <<colour background>>;
 	padding: 0.25em;
 	border-radius: 3em;
