@@ -2,6 +2,8 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/Limit/DocTemp
 
 ! Limit
 
+<<aim-lingo OverviewSuggestionsLimit>>
+
 <<aim-incomplete-results-warning>>
 
 <!-- Define a filter to compute the number of key questions tagged with the current intervention -->
