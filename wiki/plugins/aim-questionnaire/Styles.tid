@@ -262,7 +262,7 @@ button.tc-aim-navigation-button:hover {
 .tc-aim-results-interventions .tc-aim-results-intervention .tc-aim-results-score .tc-aim-results-score-small {
 	font-size: 0.8em;
 	padding: 0;
-	vertical-align: middle;
+	vertical-align: text-bottom;
 }
 
 .tc-aim-results-interventions .tc-aim-results-intervention button {
