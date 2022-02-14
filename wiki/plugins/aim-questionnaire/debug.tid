@@ -2,6 +2,12 @@ title: $:/plugins/federatial/aim-questionnaire/debug
 
 \define answers() =0plus =0 =1 =2 =3 =4 =0plus =0 =1 =2 =3 =4 =0plus =0 =1 =2 =3 =4 =0plus =0 =1 =2 =3 =4 =0plus =0 =1 =2 =3 =4 =0plus =0 =1 =2 =3 =4 =0plus =0 =1 =2 =3 =4 =0plus
 
+!! Suggested Interventions
+
+[[Click here|$:/plugins/federatial/aim-questionnaire/Results/Suggestions]] to view the suggested interventions.
+
+!! Answer All Questions
+
 For testing purposes, this button answers all questions with a random answer.
 
 <$button>

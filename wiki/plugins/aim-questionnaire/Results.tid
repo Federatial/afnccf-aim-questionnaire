@@ -5,4 +5,4 @@ caption: <<aim-lingo TabResults>> <$list filter="[{$:/config/federatial/aim-ques
 <<aim-lingo ResultsOverview>>
 </p>
 
-<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions $:/plugins/federatial/aim-questionnaire/Results/Scores $:/plugins/federatial/aim-questionnaire/Results/Download" default:"$:/plugins/federatial/aim-questionnaire/Results/Suggestions">>
+<<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Results/Scores $:/plugins/federatial/aim-questionnaire/Results/Download" default:"$:/plugins/federatial/aim-questionnaire/Results/Scores">>
