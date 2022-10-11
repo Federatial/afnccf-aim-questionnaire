@@ -1,6 +1,6 @@
 [
     {
-        "title": "01 – Alltagsleben des Kindes/Jugendlichen – Soziale Aktivitäten",
+        "title": "$:/_AIM/Questionnaire/01 – Alltagsleben des Kindes/Jugendlichen – Soziale Aktivitäten",
         "number": "1",
         "category": "A",
         "tags": "hide-subpage [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -15,7 +15,7 @@
         "answer4": "Sehr starke Probleme. Wurde mehrfach aufgrund von Verhaltensproblemen gebeten, die soziale Aktivität zu verlassen."
     },
     {
-        "title": "02 - Alltagsleben des Kindes/Jugendlichen - Anwesenheit in Schule, Ausbildung, Arbeit",
+        "title": "$:/_AIM/Questionnaire/02 - Alltagsleben des Kindes/Jugendlichen - Anwesenheit in Schule, Ausbildung, Arbeit",
         "number": "2",
         "category": "A",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork MultiFamilyWork [[Working with the Professional Network]] AIMQuestion",
@@ -30,7 +30,7 @@
         "answer4": "Sehr starkes Problem mit der Anwesenheit. Kommt sehr selten, wenn überhaupt. Großes Risiko für Maßnahmenbeendigung/Suspendierung/Kündigung. Oder ist komplett aus dem Bildungs- und Arbeitssystem herausgefallen."
     },
     {
-        "title": "03 - Alltagsleben des Kindes/Jugendlichen - Leistung in Schule, Ausbildung, Arbeit",
+        "title": "$:/_AIM/Questionnaire/03 - Alltagsleben des Kindes/Jugendlichen - Leistung in Schule, Ausbildung, Arbeit",
         "number": "3",
         "category": "A",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork [[Working with the Professional Network]] AIMQuestion",
@@ -45,7 +45,7 @@
         "answer4": "Sehr starkes Problem. Arbeitsleistung weit unter dem Jahrgangslevel in fast allen Bereichen, z.B. nicht genügende Leistungen in den meisten Fächern, Zurückstellung, Schule hingeschmissen, Schul- oder Arbeitsplatzverlust, mit wenig Engagement, einen neuen Job zu suchen."
     },
     {
-        "title": "04 – Alltagsleben des Kindes/Jugendlichen – Andere Talente und Fähigkeiten",
+        "title": "$:/_AIM/Questionnaire/04 – Alltagsleben des Kindes/Jugendlichen – Andere Talente und Fähigkeiten",
         "number": "4",
         "category": "A",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork [[Social-Ecological Work]] AIMQuestion",
@@ -60,7 +60,7 @@
         "answer4": "Sehr starkes Problem. Niemand im Netzwerk des Kindes bzw. des/der Jugendlichen kann Talente oder Interessen erkennen, nicht einmal solche, die in der Vergangenheit bestanden."
     },
     {
-        "title": "05 - Alltagsleben des Kindes/Jugendlichen - Körperlicher Gesundheitszustand",
+        "title": "$:/_AIM/Questionnaire/05 - Alltagsleben des Kindes/Jugendlichen - Körperlicher Gesundheitszustand",
         "number": "5",
         "category": "A",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork Pharmacological [[Physical Health matters]] [[Social-Ecological Work]] SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -75,7 +75,7 @@
         "answer4": "Sehr starkes Problem. Sehr schlechter Gesundheitszustand. Leidet an lebensbedrohlichen Erkrankungen, z.B. medizinisch gefährdete Anorexie, akute Herzerkrankung, aktives AIDS."
     },
     {
-        "title": "06 - Alltagsleben des Kindes/Jugendlichen - Selbstfürsorge",
+        "title": "$:/_AIM/Questionnaire/06 - Alltagsleben des Kindes/Jugendlichen - Selbstfürsorge",
         "number": "6",
         "category": "A",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork LivingSkills SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -90,7 +90,7 @@
         "answer4": "Sehr starkes Problem. Signifikante Defizite in den meisten oder allen Selbstfürsorgebereichen, schafft es nicht selbstständig zu baden, sich zu kleiden oder sich für die Schule fertig zu machen, was zu ernsten familiären, sozialen oder gesundheitlichen Problemen führt."
     },
     {
-        "title": "07 - Alltagsleben des Kindes/Jugendlichen - Körperliche Beeinträchtigung oder Behinderung",
+        "title": "$:/_AIM/Questionnaire/07 - Alltagsleben des Kindes/Jugendlichen - Körperliche Beeinträchtigung oder Behinderung",
         "number": "7",
         "category": "A",
         "tags": "hide-subpage FamilyWork LivingSkills [[Physical Health matters]] [[Social-Ecological Work]] SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -104,7 +104,7 @@
         "answer4": "Sehr starkes Problem. Völlig abhängig. Aktivität/Mobilität extrem eingeschränkt durch Beeinträchtigung; z.B. querschnittsgelähmt, oder ans Bett gebunden durch Unterernährung (schwere Anorexie)."
     },
     {
-        "title": "08 - Alltagsleben des Kindes/Jugendlichen - Soziale Entwicklung",
+        "title": "$:/_AIM/Questionnaire/08 - Alltagsleben des Kindes/Jugendlichen - Soziale Entwicklung",
         "number": "8",
         "category": "A",
         "tags": "hide-subpage [[Crisis Contingency Planning]] [[Educational-Vocational Training]] FamilyWork [[Group Work]] LivingSkills [[Working with the Professional Network]] AIMQuestion",
@@ -119,7 +119,7 @@
         "answer4": "Sehr starkes Problem. Weitreichendes soziales Defizit. Sehr unreif, keine oder wenig Fähigkeit, adäquat zu reagieren/antworten, wird als unpassend empfunden, von allen Gruppen abgelehnt, isoliert."
     },
     {
-        "title": "09 - Alltagsleben des Kindes/Jugendlichen - Soziale Fähigkeiten und Interaktion",
+        "title": "$:/_AIM/Questionnaire/09 - Alltagsleben des Kindes/Jugendlichen - Soziale Fähigkeiten und Interaktion",
         "number": "9",
         "category": "A",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Group Work]] LivingSkills [[Social-Ecological Work]] AIMQuestion",
@@ -134,7 +134,7 @@
         "answer4": "Sehr starkes Problem. Ernste Probleme mit der Sozialkompetenz und Interaktionen, ist z.B. isoliert, hat keine Freunde, ist konstant peinlich gesinnt oder kann keine Beziehungen aufrechterhalten."
     },
     {
-        "title": "10 - Sozioökonomisch - Bereitstellung von sicherem Wohnraum",
+        "title": "$:/_AIM/Questionnaire/10 - Sozioökonomisch - Bereitstellung von sicherem Wohnraum",
         "number": "10",
         "category": "B",
         "tags": "hide-subpage SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -149,7 +149,7 @@
         "answer4": "Sehr starke Probleme. Der/die Jugendliche ist obdachlos - bleibt bei Freunden („Sofa-Surfen\") oder ist obdachlos auf der Straße."
     },
     {
-        "title": "11 - Sozioökonomisch - Einkommen und Bereitstellung materieller Ressourcen",
+        "title": "$:/_AIM/Questionnaire/11 - Sozioökonomisch - Einkommen und Bereitstellung materieller Ressourcen",
         "number": "11",
         "category": "B",
         "tags": "hide-subpage SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -164,7 +164,7 @@
         "answer4": "Sehr starkes Problem. Die Ressourcen der Familie/Jugendlichen sind sehr begrenzt und stellen ein ernsthaftes Problem für den/die Jugendliche/n dar, z.B. können sie sich keine Kleidung oder Schulausrüstung leisten, der Familie bzw. dem/der Jugendlichen geht jeden Monat das Geld aus, unregelmäßige oder fehlende Gesundheitsversorgung wegen schlechten Zugangs."
     },
     {
-        "title": "12 - Familie - Beziehungen",
+        "title": "$:/_AIM/Questionnaire/12 - Familie - Beziehungen",
         "number": "12",
         "category": "C",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
@@ -179,7 +179,7 @@
         "answer4": "Sehr starkes Problem. Beziehungen, die von Feindseligkeit, aktiver Zerstörung, Untergraben der/des Jugendlichen oder anderen Familienmitgliedern gekennzeichnet sind ODER von hochgradig destruktiv verstrickter Beziehungen."
     },
     {
-        "title": "13 - Familie - Konflikt mit Jugendlichen",
+        "title": "$:/_AIM/Questionnaire/13 - Familie - Konflikt mit Jugendlichen",
         "number": "13",
         "category": "C",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
@@ -194,7 +194,7 @@
         "answer4": "Sehr starkes Problem. Die Interaktion mit dem Kind bzw. dem/der Jugendlichen ist dominiert von Konflikten, z.B. kann nicht interagieren, ohne in einen Kampf mit Geschrei zu geraten."
     },
     {
-        "title": "14 - Familie - Elterliche Erziehung",
+        "title": "$:/_AIM/Questionnaire/14 - Familie - Elterliche Erziehung",
         "number": "14",
         "category": "C",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
@@ -209,7 +209,7 @@
         "answer4": "Sehr starkes Problem. Sadistische, extreme, missbräuchliche Erziehung, z.B. den ganzen Tag Jugendliche an ein Bett binden; Schläge, die Verletzungen verursachen."
     },
     {
-        "title": "15 - Soziales - Hilfreiche Beziehungen zu Erwachsenen außerhalb der Familie",
+        "title": "$:/_AIM/Questionnaire/15 - Soziales - Hilfreiche Beziehungen zu Erwachsenen außerhalb der Familie",
         "number": "15",
         "category": "D",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -224,7 +224,7 @@
         "answer4": "Sehr starkes Problem. So misstrauisch gegenüber Erwachsenen außerhalb der Familie, dass er oder sie aktiv Hilfsangebote ablehnt."
     },
     {
-        "title": "16 - Soziales - Freundschaften zu Gleichaltrigen",
+        "title": "$:/_AIM/Questionnaire/16 - Soziales - Freundschaften zu Gleichaltrigen",
         "number": "16",
         "category": "D",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Group Work]] LivingSkills MentalizationBasedWork [[Social-Ecological Work]] AIMQuestion",
@@ -239,7 +239,7 @@
         "answer4": "Sehr starkes Problem. Zeigt überhaupt kein Interesse an Peers, ignoriert oder behandelt sie als Objekte. Von Gleichaltrigen abgelehnt."
     },
     {
-        "title": "17 - Sozial - Prosozialer oder antisozialer Freundeskreis",
+        "title": "$:/_AIM/Questionnaire/17 - Sozial - Prosozialer oder antisozialer Freundeskreis",
         "number": "17",
         "category": "D",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -254,7 +254,7 @@
         "answer4": "Sehr starkes Problem. Identifiziert sich selbst stark und fast ausschließlich als Bandenmitglied. Regelmäßige Teilnahme an gangbedingten Aktivitäten, einschließlich erheblichem anstoßerregendem Verhalten."
     },
     {
-        "title": "18 - Psychischer Zustand - Kognitive Fähigkeiten",
+        "title": "$:/_AIM/Questionnaire/18 - Psychischer Zustand - Kognitive Fähigkeiten",
         "number": "18",
         "category": "E",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork LivingSkills [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -269,7 +269,7 @@
         "answer4": "Sehr starke Probleme. Kognitive Beeinträchtigung ist für jede/n sichtbar, der/die das Kind bzw. den/die Jugendliche trifft."
     },
     {
-        "title": "19 - Psychischer Zustand - Angstzustände",
+        "title": "$:/_AIM/Questionnaire/19 - Psychischer Zustand - Angstzustände",
         "number": "19",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork MentalizationBasedWork Pharmacological AIMQuestion",
@@ -284,7 +284,7 @@
         "answer4": "Sehr starkes Problem. Angst durchdringt die Funktionsfähigkeit im Alltag und stört normale Entwicklungsaufgaben; z.B. Weigerung, zur Schule zu gehen wegen Trennung oder soziale Angst, häufige schwere Panikattacken, etc."
     },
     {
-        "title": "20 - Psychischer Zustand - Zwangsgedanken und Zwangsverhalten",
+        "title": "$:/_AIM/Questionnaire/20 - Psychischer Zustand - Zwangsgedanken und Zwangsverhalten",
         "number": "20",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork Pharmacological [[Social-Ecological Work]] AIMQuestion",
@@ -298,7 +298,7 @@
         "answer4": "Sehr starkes Problem. Durch Rituale oder Zwänge quasi außer Gefecht gesetzt, z.B. Weigerung, das Haus aus Angst vor Kontamination zu verlassen, kann nicht sprechen oder sich bewegen, weil er/sie sich nicht entscheiden kann."
     },
     {
-        "title": "21 - Psychischer Zustand - Posttraumatische intrusive Erfahrungen",
+        "title": "$:/_AIM/Questionnaire/21 - Psychischer Zustand - Posttraumatische intrusive Erfahrungen",
         "number": "21",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork Pharmacological AIMQuestion",
@@ -312,7 +312,7 @@
         "answer4": "Sehr starkes Problem. Gedanken, Bilder, Verhaltensweisen oder Gefühle, die überwältigend und allgegenwärtig sind, eine intensive persönliche Belastung verursachen und das tägliche Funktionieren dominieren, z.B. nach einer Vergewaltigung gerät ein Mädchen in Panik, wenn es einen Mann sieht, springt bei jedem Geräusch auf, und zieht sich in ihr Zuhause zurück, wo sie sich in ihrem Zimmer versteckt und unter starker Angst leidet."
     },
     {
-        "title": "22 - Psychischer Zustand - Aufmerksamkeit und Konzentration",
+        "title": "$:/_AIM/Questionnaire/22 - Psychischer Zustand - Aufmerksamkeit und Konzentration",
         "number": "22",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork Pharmacological [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -327,7 +327,7 @@
         "answer4": "Sehr starkes Problem. Nicht in der Lage, sich mehr als ein paar Minuten lang auf eine Aufgabe oder Aktivität zu konzentrieren, ständig abgelenkt, schwere Probleme beim Lernen in der Schule oder bei der Erledigung anderer Aufgaben."
     },
     {
-        "title": "23 - Psychischer Zustand - Irritabilität",
+        "title": "$:/_AIM/Questionnaire/23 - Psychischer Zustand - Irritabilität",
         "number": "23",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological AIMQuestion",
@@ -342,7 +342,7 @@
         "answer4": "Sehr starkes Problem. Hat mehrmals täglich Ausbrüche, und scheint ständig wütend oder explosiv zu sein; andere meiden ihn/sie und können Angst vor seinem/ihrem Temperament haben."
     },
     {
-        "title": "24 - Psychischer Zustand - Schlafstörungen",
+        "title": "$:/_AIM/Questionnaire/24 - Psychischer Zustand - Schlafstörungen",
         "number": "24",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] Pharmacological [[Physical Health matters]] AIMQuestion",
@@ -356,7 +356,7 @@
         "answer4": "Sehr starkes Problem. Schlafprobleme, die eine akute Gefahr für die Sicherheit oder Entwicklung darstellen, z.B. agitiertes Schlafwandeln oder Nachtschrecken, der zu aggressivem oder unkontrollierbarem Verhalten führt, Kinder/Jugendliche in psychotischer Pause schlafen mehrere Tage nicht."
     },
     {
-        "title": "25 - Psychischer Zustand - Depressionen",
+        "title": "$:/_AIM/Questionnaire/25 - Psychischer Zustand - Depressionen",
         "number": "25",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork [[Group Work]] MentalizationBasedWork Pharmacological AIMQuestion",
@@ -370,7 +370,7 @@
         "answer4": "Sehr starkes Problem. Traurig, weinerlich oder fast immer zurückgezogen, ist inaktiv und untätig, kann durch keine Intervention aufgeheitert werden; Schlaf, Appetit und Aktivitätsniveau können beeinträchtigt sein; anhaltende morbide oder selbstmörderische Gedanken."
     },
     {
-        "title": "26 - Psychischer Zustand - Absichtlich selbstverletzendes Verhalten",
+        "title": "$:/_AIM/Questionnaire/26 - Psychischer Zustand - Absichtlich selbstverletzendes Verhalten",
         "number": "26",
         "category": "E",
         "tags": "hide-subpage [[Crisis Contingency Planning]] EmergencyProcedures FamilyWork MentalizationBasedWork [[Motivational Work]] AIMQuestion",
@@ -384,7 +384,7 @@
         "answer4": "Sehr starkes Problem. Die Selbstverletzung wird wiederholt und schwerwiegend, so dass die Gesundheit oder die körperliche Unversehrtheit gefährdet ist (z.B. führt das Schneiden zu Infektionen und starken Narbenbildung)."
     },
     {
-        "title": "27 - Psychischer Zustand - Essstörungen",
+        "title": "$:/_AIM/Questionnaire/27 - Psychischer Zustand - Essstörungen",
         "number": "27",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Motivational Work]] MultiFamilyWork [[Physical Health matters]] AIMQuestion",
@@ -398,7 +398,7 @@
         "answer4": "Sehr starkes Problem. Essgewohnheiten stellen eine unmittelbare Gefahr für die Gesundheit dar, z.B. akute Anorexia nervosa, bzw. das Erbrechen im Rahmen der Bulimie verursacht akute medizinische Probleme."
     },
     {
-        "title": "28 - Psychischer Zustand - Substanzmissbrauch",
+        "title": "$:/_AIM/Questionnaire/28 - Psychischer Zustand - Substanzmissbrauch",
         "number": "28",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Motivational Work]] MultiFamilyWork [[Physical Health matters]] [[Social-Ecological Work]] [[Substance use disorder - treatment]] AIMQuestion",
@@ -412,7 +412,7 @@
         "answer4": "Sehr starkes Problem. Täglicher Konsum von Substanzen trotz schädlicher Auswirkungen; während des Krankenhausaufenthaltes oder Freiheitsbeschränkung anhaltendes Verlangen und Versuche, Substanzen zu erhalten."
     },
     {
-        "title": "29 - Psychischer Zustand - Suizidalität",
+        "title": "$:/_AIM/Questionnaire/29 - Psychischer Zustand - Suizidalität",
         "number": "29",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Use the Mental Health Act]] [[Working with the Professional Network]] AIMQuestion",
@@ -426,7 +426,7 @@
         "answer4": "Sehr starkes Problem. Selbstmordversuch oder potenziell tödliche Handlung, z.B. Einnahme einer Flasche Prozac (Antidepressivum), oder klare Vorbereitungen für einen schweren Selbstmordversuch, die gegen den Willen des/der Jugendlichen gestoppt werden."
     },
     {
-        "title": "30 - Psychischer Zustand - Widerstand",
+        "title": "$:/_AIM/Questionnaire/30 - Psychischer Zustand - Widerstand",
         "number": "30",
         "category": "E",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork MentalizationBasedWork MultiFamilyWork [[Working with the Professional Network]] AIMQuestion",
@@ -440,7 +440,7 @@
         "answer4": "Sehr starkes Problem. Die meisten Interaktionen mit Erwachsenen sind durch Widerstand, Verweigerung und Konflikte gekennzeichnet, was zu großen Verhaltens-, akademischen und sozialen Problemen führt und die soziale und kognitive Entwicklung beeinträchtigt."
     },
     {
-        "title": "31 - Psychischer Zustand - Zerstörung von Eigentum",
+        "title": "$:/_AIM/Questionnaire/31 - Psychischer Zustand - Zerstörung von Eigentum",
         "number": "31",
         "category": "E",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -454,7 +454,7 @@
         "answer4": "Sehr starkes Problem. Zerstörerisches Verhalten, das schwerwiegende Folgen für die Familie oder die Gemeinschaft hat, z.B. Brandstiftung, die Sachschäden verursacht, wiederholtes außer Kontrolle geraten und Ausraster, bei dem das Kind bzw. der/die Jugendliche Gegenstände zerschlägt und wirft."
     },
     {
-        "title": "32 - Seelischer Zustand - Absichtliches Verletzen von Menschen oder Tieren",
+        "title": "$:/_AIM/Questionnaire/32 - Seelischer Zustand - Absichtliches Verletzen von Menschen oder Tieren",
         "number": "32",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork Pharmacological [[Working with the Professional Network]] AIMQuestion",
@@ -468,7 +468,7 @@
         "answer4": "Sehr starkes Problem. Hat eine andere Person schwer verletzt (z.B. gebrochene Knochen, erforderliche medizinische Versorgung) und ist weiterhin außer Kontrolle, so dass weitere Vorfälle wahrscheinlich sind; oder wiederholtes absichtliches Töten von Tieren; oder sadistisches Verhalten, bei dem es offensichtlich Spaß macht, Schmerzen zu verursachen."
     },
     {
-        "title": "33 - Psychischer Zustand - Problematisches Sexualverhalten",
+        "title": "$:/_AIM/Questionnaire/33 - Psychischer Zustand - Problematisches Sexualverhalten",
         "number": "33",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -482,7 +482,7 @@
         "answer4": "Sehr starkes Problem. Extrem unangemessenes Sexualverhalten, wie Vergewaltigung, sexuelle Belästigung mit Nötigung.34 - Psychischer Zustand - Psychotische Erfahrungen"
     },
     {
-        "title": "34 - Psychischer Zustand - Psychotische Erfahrungen",
+        "title": "$:/_AIM/Questionnaire/34 - Psychischer Zustand - Psychotische Erfahrungen",
         "number": "34",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological AIMQuestion",
@@ -496,7 +496,7 @@
         "answer4": "Sehr starkes Problem, das von den Reaktionen auf wahnhafte Überzeugungen dominiert wird, kann z.B. das eigene Zimmer nicht verlassen, weil er/sie sich von Feinden bedroht fühlt, lebhafte offensichtliche Halluzinationen, die Stress verursachen oder destruktive Befehle erteilen (z.B. Selbstmord oder Mord)."
     },
     {
-        "title": "35 - Psychischer Zustand - Euphorische Stimmung",
+        "title": "$:/_AIM/Questionnaire/35 - Psychischer Zustand - Euphorische Stimmung",
         "number": "35",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological [[Physical Health matters]] [[Working with the Professional Network]] AIMQuestion",
@@ -510,7 +510,7 @@
         "answer4": "Sehr starkes Problem. Euphorische Stimmung dominiert das Verhalten und beeinträchtigt das Urteilsvermögen und die Funktionsfähigkeit schwerwiegend (z.B. wild übertriebene Ideen und Pläne, rasende Gedanken, Promiskuität, gibt deutlich zu viel Geld aus, mehrtägige Schlafpause)."
     },
     {
-        "title": "36 - Psychischer Zustand - Mentalisierungsfähigkeit",
+        "title": "$:/_AIM/Questionnaire/36 - Psychischer Zustand - Mentalisierungsfähigkeit",
         "number": "36",
         "category": "E",
         "tags": "hide-subpage MentalizationBasedWork AIMQuestion",
@@ -524,7 +524,7 @@
         "answer4": "Sehr starkes Problem. Kann gefühllos oder unemotional wirken, geht davon aus, dass eigene Gedanken tatsächlich die Realität darstellen und nicht die subjektive Wahrnehmung der Realität, häufiges Ausagieren, chronisches Scheitern in vertrauensvollen Beziehungen."
     },
     {
-        "title": "37 - Reaktion auf die Situation - Einsicht",
+        "title": "$:/_AIM/Questionnaire/37 - Reaktion auf die Situation - Einsicht",
         "number": "37",
         "category": "F",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] [[Motivational Work]] Pharmacological [[Use the Mental Health Act]] AIMQuestion",
@@ -539,7 +539,7 @@
         "answer4": "Sehr schwerwiegend. Völlig unfähig, das Vorhandensein von Problemen/Schwierigkeiten zu erkennen."
     },
     {
-        "title": "38 - Reaktion auf die Situation - Compliance bezüglich Behandlung und Hilfe",
+        "title": "$:/_AIM/Questionnaire/38 - Reaktion auf die Situation - Compliance bezüglich Behandlung und Hilfe",
         "number": "38",
         "category": "F",
         "tags": "hide-subpage FamilyWork [[Motivational Work]] [[Use the Mental Health Act]] [[Working with the Professional Network]] AIMQuestion",
@@ -553,7 +553,7 @@
         "answer4": "Sehr starkes Problem. Nicht compliant mit den meisten Aspekten der Behandlung/des Hilfeplans. Verweigert oder ist unfähig, eine altersgerechte Diskussion über Ziele zu führen."
     },
     {
-        "title": "39 - Maß der Komplexität - Chronizität",
+        "title": "$:/_AIM/Questionnaire/39 - Maß der Komplexität - Chronizität",
         "number": "39",
         "category": "G",
         "tags": "hide-subpage [[Working with the Professional Network]] AIMQuestion",
@@ -567,7 +567,7 @@
         "answer4": "Probleme seit mehr als vier Jahren."
     },
     {
-        "title": "40 - Maß der Komplexität – Durchgängigkeit",
+        "title": "$:/_AIM/Questionnaire/40 - Maß der Komplexität – Durchgängigkeit",
         "number": "40",
         "category": "G",
         "tags": "hide-subpage [[Working with the Professional Network]] AIMQuestion",
@@ -581,7 +581,7 @@
         "answer4": "Probleme sind in allen oder fast allen Settings und in jedem Umfeld vorhanden, z.B. Versagen in der Schule, Depressionen zu Hause, Isolation mit Gleichaltrigen."
     },
     {
-        "title": "41 - Macht und Kontrolle – Erfahrung von Diskriminierung",
+        "title": "$:/_AIM/Questionnaire/41 - Macht und Kontrolle – Erfahrung von Diskriminierung",
         "number": "41",
         "category": "H",
         "tags": "hide-subpage AIMQuestion",
@@ -596,7 +596,7 @@
         "answer4": "Sehr starkes Problem. Diskriminierung ist ein stets wiederkehrendes und bedeutsames Hindernis im Leben des Kindes bzw. des/der Jugendlichen. Es behindert seine/ihre Möglichkeit, das zu tun, was er/sie tun möchte im Leben und führt zu andauernder Belastung Und Trauma. Das Kind bzw. der/die Jugendliche bleibt mit dem Gefühl zurück, im Leben nicht in Sicherheit zu sein."
     },
     {
-        "title": "42 - Macht und Kontrolle – Erfahrung von Ausnutzung",
+        "title": "$:/_AIM/Questionnaire/42 - Macht und Kontrolle – Erfahrung von Ausnutzung",
         "number": "42",
         "category": "H",
         "tags": "hide-subpage AIMQuestion",
@@ -611,7 +611,7 @@
         "answer4": "Sehr starkes Problem. Starke Kontrolle und Ausbeutung, die dem Kind bzw. dem/der Jugendlichen erheblichen Schaden oder Trauma zufügt und ihn/sie einem anhaltenden schweren Risiko aussetzt. Er/sie wird in einem Maße kontrolliert, dass er/sie nicht die Möglichkeit hat, Risiken zu erkennen oder de Situation zu ändern und es bestehen erhebliche Hindernisse für ein Eingreifen sowie für ein Entkommen aus der Situation."
     },
     {
-        "title": "43 - Macht und Kontrolle – Digitales Leben",
+        "title": "$:/_AIM/Questionnaire/43 - Macht und Kontrolle – Digitales Leben",
         "number": "43",
         "category": "H",
         "tags": "hide-subpage AIMQuestion",

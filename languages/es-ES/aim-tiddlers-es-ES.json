@@ -1,6 +1,6 @@
 [
     {
-        "title": "01 Vida cotidiana del joven - Actividades sociales",
+        "title": "$:/_AIM/Questionnaire/01 Vida cotidiana del joven - Actividades sociales",
         "number": "1",
         "category": "A",
         "tags": "hide-subpage [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -15,7 +15,7 @@
         "answer4": "Muy grave: se le ha solicitado en repetidas ocasiones que abandone una actividad social por problemas de conducta."
     },
     {
-        "title": "02 Vida cotidiana del joven - Asistencia a la escuela, al trabajo o a cursos de formación",
+        "title": "$:/_AIM/Questionnaire/02 Vida cotidiana del joven - Asistencia a la escuela, al trabajo o a cursos de formación",
         "number": "2",
         "category": "A",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork MultiFamilyWork [[Working with the Professional Network]] AIMQuestion",
@@ -30,7 +30,7 @@
         "answer4": "Muy grave: asistencia infrecuente o nula; alto riesgo de exclusión/despido; abandono de actividad escolar/laboral/formativa."
     },
     {
-        "title": "03 Vida cotidiana del joven - Rendiminento en la escuela, en el trabajo o en cursos de formación",
+        "title": "$:/_AIM/Questionnaire/03 Vida cotidiana del joven - Rendiminento en la escuela, en el trabajo o en cursos de formación",
         "number": "3",
         "category": "A",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork [[Working with the Professional Network]] AIMQuestion",
@@ -45,7 +45,7 @@
         "answer4": "Muy grave: nivel muy inferior al del curso en casi todas las asignaturas (p. ej. suspende casi todas las asignaturas; repite curso; abandono escolar); despido laboral o se encuentra en paro y no busca trabajo activamente."
     },
     {
-        "title": "04 Vida cotidiana del joven - Otros talentos y habilidades",
+        "title": "$:/_AIM/Questionnaire/04 Vida cotidiana del joven - Otros talentos y habilidades",
         "number": "4",
         "category": "A",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork [[Social-Ecological Work]] AIMQuestion",
@@ -60,7 +60,7 @@
         "answer4": "Dificultades muy graves: ninguna persona de su círculo es capaz de identificar aficiones o intereses del joven, ni siquiera los que eran evidentes en el pasado."
     },
     {
-        "title": "05 Vida cotidiana del joven - Estado físico",
+        "title": "$:/_AIM/Questionnaire/05 Vida cotidiana del joven - Estado físico",
         "number": "5",
         "category": "A",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork Pharmacological [[Physical Health matters]] [[Social-Ecological Work]] SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -75,7 +75,7 @@
         "answer4": "Muy grave: muy mala salud. Padece una enfermedad potencialmente mortal de forma inminente (p. ej. anorexia con problemas de salud, cardiopatía aguda, SIDA activo)."
     },
     {
-        "title": "06 Vida cotidiana del joven - Cuidados personales",
+        "title": "$:/_AIM/Questionnaire/06 Vida cotidiana del joven - Cuidados personales",
         "number": "6",
         "category": "A",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork LivingSkills SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -90,7 +90,7 @@
         "answer4": "Muy grave: déficits significativos en todas o casi todas las áreas del cuidado personal; no es capaz de bañarse, vestirse o prepararse para la escuela de forma independiente, lo cual provoca importantes problemas familiares, sociales y/o de salud."
     },
     {
-        "title": "07 Vida cotidiana del joven - Deficiencia o discapacidad física",
+        "title": "$:/_AIM/Questionnaire/07 Vida cotidiana del joven - Deficiencia o discapacidad física",
         "number": "7",
         "category": "A",
         "tags": "hide-subpage FamilyWork LivingSkills [[Physical Health matters]] [[Social-Ecological Work]] SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -104,7 +104,7 @@
         "answer4": "Muy grave: totalmente dependiente; actividad/movilidad gravemente restringida por una deficiencia/discapacidad (p. ej. tetrapléjico; encamado por desnutrición grave debido a anorexia)."
     },
     {
-        "title": "08 Vida cotidiana del joven - Desarrollo social",
+        "title": "$:/_AIM/Questionnaire/08 Vida cotidiana del joven - Desarrollo social",
         "number": "8",
         "category": "A",
         "tags": "hide-subpage [[Crisis Contingency Planning]] [[Educational-Vocational Training]] FamilyWork [[Group Work]] LivingSkills [[Working with the Professional Network]] AIMQuestion",
@@ -118,7 +118,7 @@
         "answer4": "Muy grave: déficit social generalizado. Muy inmaduro; capacidad mínima o incapacidad para responder de forma adecuada; es considerado un inadaptado social, es rechazado por todos los grupos y es solitario."
     },
     {
-        "title": "09 Vida cotidiana del joven - Habilidades sociales e interacción",
+        "title": "$:/_AIM/Questionnaire/09 Vida cotidiana del joven - Habilidades sociales e interacción",
         "number": "9",
         "category": "A",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Group Work]] LivingSkills [[Social-Ecological Work]] AIMQuestion",
@@ -133,7 +133,7 @@
         "answer4": "Muy grave: problemas graves de interacción y habilidades sociales (solitario, no tiene amigos, no comprende las convenciones sociales o responde de forma inadecuada, se muestra hostil de forma constante y no es capaz de conservar sus relaciones)."
     },
     {
-        "title": "10 Socioeconómico - Vivienda estable",
+        "title": "$:/_AIM/Questionnaire/10 Socioeconómico - Vivienda estable",
         "number": "10",
         "category": "B",
         "tags": "hide-subpage SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -148,7 +148,7 @@
         "answer4": "Muy grave: el joven carece de hogar y se aloja en casas de amigos o es un «sin techo»."
     },
     {
-        "title": "11 Socioeconómico - Ingresos y recursos materiales",
+        "title": "$:/_AIM/Questionnaire/11 Socioeconómico - Ingresos y recursos materiales",
         "number": "11",
         "category": "B",
         "tags": "hide-subpage SubsistenceSupport [[Working with the Professional Network]] AIMQuestion",
@@ -163,7 +163,7 @@
         "answer4": "Muy grave: los recursos de la familia/el joven son muy limitados y constituyen un grave problema para el joven (no puede costearse la ropa ni el material escolar; la familia/el joven se quedan sin dinero cada mes; la atención sanitaria es inexistente o irregular debido al acceso limitado)."
     },
     {
-        "title": "12 Familia - Relaciones",
+        "title": "$:/_AIM/Questionnaire/12 Familia - Relaciones",
         "number": "12",
         "category": "C",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
@@ -178,7 +178,7 @@
         "answer4": "Muy grave: las relaciones son hostiles y destructivas de forma activa y minan al joven y a otros miembros de la familia O BIEN existe un intrusismo altamente destructivo con una involucración muy excesiva."
     },
     {
-        "title": "13 Familia – Conflictos con el joven",
+        "title": "$:/_AIM/Questionnaire/13 Familia – Conflictos con el joven",
         "number": "13",
         "category": "C",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
@@ -193,7 +193,7 @@
         "answer4": "Problema muy grave: la interacción con el joven está dominada por el conflicto (p. ej. no puede interactuar sin acabar peleándose a gritos)."
     },
     {
-        "title": "14 Familia – Disciplina de los padres",
+        "title": "$:/_AIM/Questionnaire/14 Familia – Disciplina de los padres",
         "number": "14",
         "category": "C",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork MultiFamilyWork AIMQuestion",
@@ -208,7 +208,7 @@
         "answer4": "Muy grave: disciplina sádica, extrema o abusiva (p. ej. atar al joven a la cama durante todo el día, palizas que causan lesiones)."
     },
     {
-        "title": "15 Social – Apoyo de adultos externos a la familia",
+        "title": "$:/_AIM/Questionnaire/15 Social – Apoyo de adultos externos a la familia",
         "number": "15",
         "category": "D",
         "tags": "hide-subpage [[Child Protection Referral]] FamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -222,7 +222,7 @@
         "answer4": "Muy grave: desconfía tanto de los adultos fuera de la familia que rechaza de forma activa cualquier ofrecimiento de ayuda."
     },
     {
-        "title": "16 Social – Amistades con otros jóvenes",
+        "title": "$:/_AIM/Questionnaire/16 Social – Amistades con otros jóvenes",
         "number": "16",
         "category": "D",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Group Work]] LivingSkills MentalizationBasedWork [[Social-Ecological Work]] AIMQuestion",
@@ -237,7 +237,7 @@
         "answer4": "Muy grave: no muestra ningún interés por relacionarse con otros jóvenes, los ignora o les trata como objetos. Es rechazado por los compañeros."
     },
     {
-        "title": "17 Social – Grupo de amistades prosocial o antisocial",
+        "title": "$:/_AIM/Questionnaire/17 Social – Grupo de amistades prosocial o antisocial",
         "number": "17",
         "category": "D",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -252,7 +252,7 @@
         "answer4": "Muy grave: se identifica a sí mismo de manera tajante y de forma casi exclusiva como miembro de una banda. Está involucrado en las actividades de la banda, que incluyen algunas conductas delictivas."
     },
     {
-        "title": "18 Estado mental – Habilidad cognitiva",
+        "title": "$:/_AIM/Questionnaire/18 Estado mental – Habilidad cognitiva",
         "number": "18",
         "category": "E",
         "tags": "hide-subpage [[Educational-Vocational Training]] FamilyWork LivingSkills [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -266,7 +266,7 @@
         "answer3": "Dificultades importantes: tiene discapacidades cognitivas (no sólo problemas de aprendizaje). 4 Dificultades graves: las discapacidades cognitivas son evidentes a simple vista."
     },
     {
-        "title": "19 Estado mental - Ansiedad",
+        "title": "$:/_AIM/Questionnaire/19 Estado mental - Ansiedad",
         "number": "19",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork MentalizationBasedWork Pharmacological AIMQuestion",
@@ -281,7 +281,7 @@
         "answer4": "Muy grave: la ansiedad domina su actividad diaria e interfiere con su desarrollo (p. ej. se niega a ir al colegio por ansiedad a la separación o por ansiedad social, sufre crisis de angustia frecuentes, etc.)."
     },
     {
-        "title": "20 Estado mental – Ideas obsesivas y conducta compulsiva",
+        "title": "$:/_AIM/Questionnaire/20 Estado mental – Ideas obsesivas y conducta compulsiva",
         "number": "20",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork Pharmacological [[Social-Ecological Work]] AIMQuestion",
@@ -295,7 +295,7 @@
         "answer4": "Muy grave: los rituales y las compulsiones son incapacitantes (p. ej. el joven se niega a salir de casa porque tiene miedo a contaminarse; no habla ni se mueve por indecisión, etc.)."
     },
     {
-        "title": "21 Estado mental – Experiencias intrusivas postraumáticas",
+        "title": "$:/_AIM/Questionnaire/21 Estado mental – Experiencias intrusivas postraumáticas",
         "number": "21",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork Pharmacological AIMQuestion",
@@ -309,7 +309,7 @@
         "answer4": "Muy grave: pensamientos, imágenes, conductas o sentimientos abrumadores y generalizados que le provocan un malestar intenso y dominan su actividad diaria (p. ej. tras una violación, una niña se asusta cada vez que ve a un hombre y salta ante cualquier ruido, por lo que se encierra en casa, se oculta en su dormitorio y sufre un alto nivel de ansiedad)."
     },
     {
-        "title": "22 Estado mental – Atención y concentración",
+        "title": "$:/_AIM/Questionnaire/22 Estado mental – Atención y concentración",
         "number": "22",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork Pharmacological [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -324,7 +324,7 @@
         "answer4": "Muy grave: es incapaz de centrarse en ninguna actividad durante más de unos minutos. Se distrae de forma constante, tiene graves problemas de aprendizaje en la escuela o en otro tipo de tareas."
     },
     {
-        "title": "23 Estado mental - Irritabilidad",
+        "title": "$:/_AIM/Questionnaire/23 Estado mental - Irritabilidad",
         "number": "23",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological AIMQuestion",
@@ -339,7 +339,7 @@
         "answer4": "Muy grave: estalla varias veces al día y siempre parece estar enfadado o a punto de estallar; las personas le evitan e incluso tienen miedo de su mal genio."
     },
     {
-        "title": "24 Estado mental – Trastornos del sueño",
+        "title": "$:/_AIM/Questionnaire/24 Estado mental – Trastornos del sueño",
         "number": "24",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] Pharmacological [[Physical Health matters]] AIMQuestion",
@@ -353,7 +353,7 @@
         "answer4": "Muy grave: los trastornos del sueño constituyen un riesgo agudo para su seguridad o desarrollo (p. ej. sonambulismo agitado o terrores nocturnos que derivan en una conducta agresiva o incontrolable; brotes psicóticos durante los cuales el joven no duerme durante varios días, etc.)."
     },
     {
-        "title": "25 Estado mental - Depresión",
+        "title": "$:/_AIM/Questionnaire/25 Estado mental - Depresión",
         "number": "25",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] FamilyWork [[Group Work]] MentalizationBasedWork Pharmacological AIMQuestion",
@@ -367,7 +367,7 @@
         "answer4": "Muy grave: se muestra triste, lloroso o retraído la mayor parte del tiempo; está inactivo y no se involucra en ninguna actividad; nada le anima; pueden verse afectados el nivel de sueño, apetito y actividad; manifiesta ideas pesimistas o suicidas de forma persistente."
     },
     {
-        "title": "26 Estado mental - Autolesiones",
+        "title": "$:/_AIM/Questionnaire/26 Estado mental - Autolesiones",
         "number": "26",
         "category": "E",
         "tags": "hide-subpage [[Crisis Contingency Planning]] EmergencyProcedures FamilyWork MentalizationBasedWork [[Motivational Work]] AIMQuestion",
@@ -381,7 +381,7 @@
         "answer4": "Muy grave: autolesiones graves y reiteradas que amenacen la salud o la integridad física (p. ej. los cortes provocan infecciones graves y cicatrices)."
     },
     {
-        "title": "27 Estado mental – Trastornos alimentarios",
+        "title": "$:/_AIM/Questionnaire/27 Estado mental – Trastornos alimentarios",
         "number": "27",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Motivational Work]] MultiFamilyWork [[Physical Health matters]] AIMQuestion",
@@ -395,7 +395,7 @@
         "answer4": "Muy grave: los hábitos alimentarios constituyen una amenaza inmediata para la salud (p. ej. la anorexia nerviosa aguda y la bulimia con vómitos causan problemas médicos agudos)."
     },
     {
-        "title": "28 Estado mental – Consumo de alcohol o drogas",
+        "title": "$:/_AIM/Questionnaire/28 Estado mental – Consumo de alcohol o drogas",
         "number": "28",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Motivational Work]] MultiFamilyWork [[Physical Health matters]] [[Social-Ecological Work]] [[Substance use disorder - treatment]] AIMQuestion",
@@ -409,7 +409,7 @@
         "answer4": "Muy grave: consumo diario de alcohol o drogas a pesar de los efectos adversos; en el caso de hospitalización o en entornos restrictivos, muestra problemas de ansia persistente e intenta hacerse con alcohol o drogas."
     },
     {
-        "title": "29 Estado mental – Tendencias suicidas",
+        "title": "$:/_AIM/Questionnaire/29 Estado mental – Tendencias suicidas",
         "number": "29",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Use the Mental Health Act]] [[Working with the Professional Network]] AIMQuestion",
@@ -423,7 +423,7 @@
         "answer4": "Muy grave: intento de suicidio o gesto potencialmente mortal (p. ej. ingiere un frasco de Prozac, preparativos claros para un intento de suicidio serio que son interrumpidos contra la voluntad del joven)."
     },
     {
-        "title": "30 Estado mental – Actitud desafiante",
+        "title": "$:/_AIM/Questionnaire/30 Estado mental – Actitud desafiante",
         "number": "30",
         "category": "E",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork MentalizationBasedWork MultiFamilyWork [[Working with the Professional Network]] AIMQuestion",
@@ -437,7 +437,7 @@
         "answer4": "Muy grave: casi todas las interacciones con adultos se caracterizan por una actitud de oposición, desafío y conflicto que deriva en importantes problemas conductuales, académicos y sociales e interfiere con su desarrollo social y cognitivo."
     },
     {
-        "title": "31 Estado mental – Destrucción de la propiedad",
+        "title": "$:/_AIM/Questionnaire/31 Estado mental – Destrucción de la propiedad",
         "number": "31",
         "category": "E",
         "tags": "hide-subpage [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -451,7 +451,7 @@
         "answer4": "Muy grave: conducta destructiva con consecuencias graves para la familia o la comunidad (p. ej. provocar incendios; arrebatos recurrentes y descontrolados de ira en los que el joven rompe y lanza objetos, etc.)."
     },
     {
-        "title": "32 Estado mental – Lesiones a terceros",
+        "title": "$:/_AIM/Questionnaire/32 Estado mental – Lesiones a terceros",
         "number": "32",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork MultiFamilyWork Pharmacological [[Working with the Professional Network]] AIMQuestion",
@@ -465,7 +465,7 @@
         "answer4": "Muy grave: ha lesionado gravemente o matado a una persona (p. ej. huesos rotos, necesidad de asistencia médica) y continúa fuera de control, por lo que es probable que se produzcan más incidentes; o bien mata a animales de forma recurrente y deliberada o muestra una conducta sádica en la que claramente disfruta provocando dolor."
     },
     {
-        "title": "33 Estado mental – Conducta sexual problemática",
+        "title": "$:/_AIM/Questionnaire/33 Estado mental – Conducta sexual problemática",
         "number": "33",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork [[Social-Ecological Work]] [[Working with the Professional Network]] AIMQuestion",
@@ -479,7 +479,7 @@
         "answer4": "Muy grave: conducta sexual extremadamente inapropiada (p. ej. violación, acoso sexual con coacción)."
     },
     {
-        "title": "34 Estado mental - Experiencias psicóticas",
+        "title": "$:/_AIM/Questionnaire/34 Estado mental - Experiencias psicóticas",
         "number": "34",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological AIMQuestion",
@@ -493,7 +493,7 @@
         "answer4": "Muy grave: conducta dominada por la respuesta a la ideas delirantes (p. ej. es incapaz de abandonar su dormitorio porque tiene miedo de que le persiga el enemigo); sufre alucinaciones vívidas que le causan desasosiego o le generan pensamientos destructivos (p. ej. suicidas u homicidas)."
     },
     {
-        "title": "35 Estado mental - Excitación",
+        "title": "$:/_AIM/Questionnaire/35 Estado mental - Excitación",
         "number": "35",
         "category": "E",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] FamilyWork Pharmacological [[Physical Health matters]] [[Working with the Professional Network]] AIMQuestion",
@@ -507,7 +507,7 @@
         "answer4": "Muy grave: la euforia domina su conducta e interfiere con su juicio y actividad (p. ej. ideas y planes muy excesivos, pensamientos acelerados, promiscuidad, gasto desbordante, no dormir durante varios días, etc.)."
     },
     {
-        "title": "36 Estado mental - Capacidad de mentalización",
+        "title": "$:/_AIM/Questionnaire/36 Estado mental - Capacidad de mentalización",
         "number": "36",
         "category": "E",
         "tags": "hide-subpage MentalizationBasedWork AIMQuestion",
@@ -521,7 +521,7 @@
         "answer4": "Muy grave: se muestra insensible o impasible; cree que sus propios pensamientos representan la verdadera realidad en lugar de ser representaciones de la realidad; con frecuencia muestra un comportamiento inadecuado; fracaso constante a la hora de entablar relaciones de confianza."
     },
     {
-        "title": "37 Respuesta ante situaciones - Conciencia",
+        "title": "$:/_AIM/Questionnaire/37 Respuesta ante situaciones - Conciencia",
         "number": "37",
         "category": "F",
         "tags": "hide-subpage [[Cognitive Behavioural]] [[Crisis Contingency Planning]] [[Motivational Work]] Pharmacological [[Use the Mental Health Act]] AIMQuestion",
@@ -536,7 +536,7 @@
         "answer4": "Muy grave: es completamente incapaz de reconocer la presencia de problemas/dificultades."
     },
     {
-        "title": "38 Respuesta a la situación - Compromiso con su cuidado y tratamiento",
+        "title": "$:/_AIM/Questionnaire/38 Respuesta a la situación - Compromiso con su cuidado y tratamiento",
         "number": "38",
         "category": "F",
         "tags": "hide-subpage FamilyWork [[Motivational Work]] [[Use the Mental Health Act]] [[Working with the Professional Network]] AIMQuestion",
@@ -550,7 +550,7 @@
         "answer4": "Muy grave: no cumple con la mayoría de los aspectos de su plan de cuidado y tratamiento. Rechaza/es incapaz de implicarse en una discusión sobre los objetivos apropiados para su edad."
     },
     {
-        "title": "39 Evaluación de la complejidad - Cronicidad",
+        "title": "$:/_AIM/Questionnaire/39 Evaluación de la complejidad - Cronicidad",
         "number": "39",
         "category": "G",
         "tags": "hide-subpage [[Working with the Professional Network]] AIMQuestion",
@@ -564,7 +564,7 @@
         "answer4": "Problemas presentes durante más de cuatro años."
     },
     {
-        "title": "40 Evaluación de la complejidad - Generalización",
+        "title": "$:/_AIM/Questionnaire/40 Evaluación de la complejidad - Generalización",
         "number": "40",
         "category": "G",
         "tags": "hide-subpage [[Working with the Professional Network]] AIMQuestion",
@@ -578,7 +578,7 @@
         "answer4": "Los problemas están presentes en todos o casi todos los ámbitos y contextos (p. ej. fracaso escolar, depresión en casa, aislado de los compañeros)."
     },
     {
-        "title": "41 Poder y Control - Experiencias de discriminación",
+        "title": "$:/_AIM/Questionnaire/41 Poder y Control - Experiencias de discriminación",
         "number": "41",
         "category": "H",
         "tags": "hide-subpage AIMQuestion",
@@ -593,7 +593,7 @@
         "answer4": "Problema muy grave. La discriminación es una barrera recurrente y significativa para la vida del joven. Impacta en la capacidad de la persona joven para hacer las cosas que quiere hacer en la vida y causa angustia continua y trauma , dejando a la persona joven sintiéndose muy insegura en el mundo."
     },
     {
-        "title": "42 Poder y Control - Experiencias de Explotación",
+        "title": "$:/_AIM/Questionnaire/42 Poder y Control - Experiencias de Explotación",
         "number": "42",
         "category": "H",
         "tags": "hide-subpage AIMQuestion",
@@ -608,7 +608,7 @@
         "answer4": "Problema muy grave. Control y explotación severos que causan daños o traumas significativos a la persona joven y la colocan en un riesgo grave continuo. El joven está controlado en la medida en que no tiene la capacidad de reconocer los riesgos o cambiar la situación y existen barreras considerables para intervenir o para que el joven escape de la situación."
     },
     {
-        "title": "43 Poder y Control - Vida online",
+        "title": "$:/_AIM/Questionnaire/43 Poder y Control - Vida online",
         "number": "43",
         "category": "H",
         "tags": "hide-subpage AIMQuestion",
