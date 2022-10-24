@@ -27,6 +27,6 @@ type: application/json
     "ClearAnswersYes": "Si, borrar todas las respuestas existentes",
     "HeadingDownloadCSV": "Descargar CSV file",
     "HeadingDownloadWordDocument": "Descargar resultados como documento de Word",
-    "LabelKeyProblem": "Este es un problema clave (<<key-question-number) de <<max-key-questions>>)",
+    "LabelKeyProblem": "Este es un problema clave (<<key-question-number>> de <<max-key-questions>>)",
     "OverviewSuggestedInterventions": "Estas intervenciones son sugerencias de acuerdo con los resultados de AIM y se basan en la evidencia disponible. Son una guía y pueden ser útiles como una forma de comprobar que se han considerado estas opciones, en lugar de orientar al trabajador hacia lo que debe hacer."
 }
