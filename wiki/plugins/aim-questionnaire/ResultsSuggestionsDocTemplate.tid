@@ -83,6 +83,16 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate
 <th>Completed by</th>
 <td></td>
 </tr>
+<tr>
+<th></th>
+<td>
+Completed at `
+<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
+<$text text={{{ [<contactPhaseTitle>get[text]else[start]] }}}/>
+</$let>
+` of contact
+</td>
+</tr>
 </table>
 <p>`
 <<aim-lingo OverviewSuggestedInterventions>>

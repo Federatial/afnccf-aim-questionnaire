@@ -12,5 +12,9 @@ title: $:/plugins/federatial/aim-questionnaire/CSVDownloadTemplate
 <$text text=<<separator>>/>
 </$list>
 </$list>
+<$text text=<<separator>>/>
+<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
+<$text text={{{ [<contactPhaseTitle>get[text]else[start]] }}}/>
+</$let>
 <$text text=<<linebreak>>/>
 </$vars>
