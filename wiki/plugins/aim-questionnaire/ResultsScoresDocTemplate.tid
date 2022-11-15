@@ -20,9 +20,7 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Scores/DocTemplate
 <p style="font-weight:bold;">Name of person completing AIM:</p>
 <p>Completed at <span style="font-weight:bold;">
 `
-<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
-<$text text={{{ [<contactPhaseTitle>get[text]else[start]] }}}/>
-</$let>
+<<aim-selectively-show-contact-phase>>
 `
 </span> of contact</p>
 `{{$:/plugins/federatial/aim-questionnaire/Results/Scores||$:/core/templates/html-tiddler}}`

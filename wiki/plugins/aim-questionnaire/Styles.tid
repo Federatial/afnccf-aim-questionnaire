@@ -236,6 +236,11 @@ button.tc-aim-navigation-button:hover {
 
 }
 
+.tc-aim-contact-phase ol {
+	list-style: none;
+	padding-left: 0;
+}
+
 .tc-aim-results-interventions {
 	list-style: none;
 	padding-left: 0;

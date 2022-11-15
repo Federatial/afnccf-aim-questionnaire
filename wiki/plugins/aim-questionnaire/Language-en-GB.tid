@@ -24,6 +24,10 @@ CategoryYoungPersonDailyLife: Young Person Daily Life
 ClearAnswersNo: No, leave existing answers alone
 ClearAnswersPrompt: Are you sure you wish to clear all existing answers?
 ClearAnswersYes: Yes, clear all existing answers
+ContactPhaseHeading: This questionnaire is for:
+ContactPhaseUnspecified: Unspecified
+ContactPhaseStart: The start of contact
+ContactPhaseEnd: The end of contact
 HeadingDownloadCSV: Download CSV file
 HeadingDownloadWordDocument: Download results as Word Document
 LabelKeyProblem: This is a key problem (<<key-question-number>> of <<max-key-questions>>)

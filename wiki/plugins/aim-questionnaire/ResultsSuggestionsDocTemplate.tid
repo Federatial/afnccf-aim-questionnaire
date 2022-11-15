@@ -87,9 +87,7 @@ title: $:/plugins/federatial/aim-questionnaire/Results/Suggestions/DocTemplate
 <th></th>
 <td>
 Completed at `
-<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
-<$text text={{{ [<contactPhaseTitle>get[text]else[start]] }}}/>
-</$let>
+<<aim-selectively-show-contact-phase>>
 ` of contact
 </td>
 </tr>

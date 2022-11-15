@@ -7,23 +7,6 @@ tags: $:/tags/Macro
 
 \define aim-questionnaire()
 <div class="tc-aim-panel">
-<div class="tc-aim-panel-header">
-<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
-<p>
-This questionnaire is for:
-</p>
-<p>
-<$radio tiddler=<<contactPhaseTitle>> value="start" default="start">
-The start of contact
-</$radio>
-</p>
-<p>
-<$radio tiddler=<<contactPhaseTitle>> value="end" default="start">
-The end of contact
-</$radio>
-</p>
-</$let>
-</div>
 <<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Questions/Wizard $:/plugins/federatial/aim-questionnaire/Questions/List $:/plugins/federatial/aim-questionnaire/Results" default:"$:/plugins/federatial/aim-questionnaire/Questions/Wizard">>
 </div>
 \end
@@ -79,4 +62,18 @@ The end of contact
 <$list filter="[{$:/config/federatial/aim-questionnaire/aim-question-tag}tagging[]addprefix[/]addprefix{$:/status/UserName}addprefix[$:/temp/AIM/Answer/]!is[tiddler]] +[limit[1]]">
 <<aim-incomplete-results-warning-message>>
 </$list>
+\end
+
+\define aim-show-contact-phase()
+<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
+<$text text={{{ [<contactPhaseTitle>get[text]else[unspecified]] }}}/>
+</$let>
+\end
+
+\define aim-selectively-show-contact-phase()
+<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
+<$list filter="[<contactPhaseTitle>get[text]else[unspecified]!match[unspecified]]" variable="ignore">
+<$text text={{{ [<contactPhaseTitle>get[text]] }}}/>
+</$list>
+</$let>
 \end

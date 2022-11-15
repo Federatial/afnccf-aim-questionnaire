@@ -5,4 +5,27 @@ caption: <<aim-lingo TabResults>> <$list filter="[{$:/config/federatial/aim-ques
 <<aim-lingo ResultsOverview>>
 </p>
 
+<$let contactPhaseTitle={{{ [{$:/status/UserName}else[anon]addprefix[$:/temp/AIM/Answer/]addsuffix[/ContactPhase]] }}}>
+<p class="tc-aim-contact-phase">
+<<aim-lingo ContactPhaseHeading>>
+<ol>
+<li>
+<$radio tiddler=<<contactPhaseTitle>> value="unspecified" default="unspecified">
+<<aim-lingo ContactPhaseUnspecified>>
+</$radio>
+</li>
+<li>
+<$radio tiddler=<<contactPhaseTitle>> value="start" default="unspecified">
+<<aim-lingo ContactPhaseStart>>
+</$radio>
+</li>
+<li>
+<$radio tiddler=<<contactPhaseTitle>> value="end" default="unspecified">
+<<aim-lingo ContactPhaseEnd>>
+</$radio>
+</li>
+</ol>
+</p>
+</$let>
+
 <<tabs tabsList:"$:/plugins/federatial/aim-questionnaire/Results/Scores $:/plugins/federatial/aim-questionnaire/Results/Download" default:"$:/plugins/federatial/aim-questionnaire/Results/Scores">>
